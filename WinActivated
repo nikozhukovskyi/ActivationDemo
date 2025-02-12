@@ -79,7 +79,19 @@ if "%productName%"=="Windows 10 Enterprise Evaluation" (
 echo.
 
 REM ===============================================
-REM Setting KMS Activation Key (GVLK - Generic Volume License Key)
+REM Checking if user wants to reactivate if already activated
+REM ===============================================
+set /p reactivate=Windows is already activated. Do you want to reactivate it? (y/n): 
+if /i "%reactivate%"=="y" (
+    echo [INFO] Proceeding with reactivation...
+    goto :reactivate
+) else (
+    echo [INFO] Skipping reactivation.
+    exit /b
+)
+
+:reactivate
+echo [STATUS] Setting KMS Activation Key (GVLK - Generic Volume License Key)
 REM ===============================================
 set key=
 
