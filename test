@@ -10,7 +10,7 @@ if %errorLevel% neq 0 (
     echo [ERROR] Please run this script as Administrator.
     echo [STATUS] Relaunching with Admin rights...
     powershell -Command "Start-Process cmd -ArgumentList '/c \"%~fnx0\"' -Verb RunAs"
-    exit /b
+    exit /0
 )
 
 echo ================================================
@@ -31,12 +31,12 @@ if %errorlevel%==0 (
     set /p userInput="Re-activate Windows? (y/n): "
     if /i "%userInput%"=="n" (
         echo [INFO] Activation canceled. Exiting...
-        exit /b
+        exit /0
     ) else if /i "%userInput%"=="y" (
         echo [STATUS] Proceeding with re-activation...
     ) else (
         echo [ERROR] Invalid input. Exiting...
-        exit /b
+        exit /0
     )
 ) else (
     echo [STATUS] Windows is not activated. Proceeding with activation...
@@ -53,12 +53,12 @@ for /f "tokens=2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Curre
 if "%productName%"=="" (
     echo [ERROR] Could not detect Windows product name.
     pause
-    exit /b
+    exit /0
 )
 if "%edition%"=="" (
     echo [ERROR] Could not detect Windows edition.
     pause
-    exit /b
+    exit /0
 )
 
 echo [STATUS] Product: %productName%
@@ -90,6 +90,8 @@ if "%version%"=="10" (
         set key=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
     ) else if /i "%edition%"=="Enterprise" (
         set key=NPPR9-FWDCX-D2C8J-H872K-2YT43
+    ) else if /i "%edition%"=="Enterprise Evaluation" (
+        set key=VLMVJ-YP9XJ-YWY9X-2C2F6-WX88H
     )
 ) else if "%version%"=="11" (
     if /i "%edition%"=="Professional" (
@@ -104,7 +106,7 @@ if "%version%"=="10" (
 if "%key%"=="" (
     echo [ERROR] No valid KMS key found for your system.
     pause
-    exit /b
+    exit /0
 )
 echo [STATUS] Selected key: %key%
 echo.
