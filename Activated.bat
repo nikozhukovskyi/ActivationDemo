@@ -2,6 +2,17 @@
 cls
 color 0A
 
+REM ===============================================
+REM [CHECK] Run as Administrator
+REM ===============================================
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    echo [ERROR] Please run this script as Administrator.
+    echo [STATUS] Relaunching with Admin rights...
+    powershell -Command "Start-Process cmd -ArgumentList '/c \"%~fnx0\"' -Verb RunAs"
+    exit /b
+)
+
 echo ================================================
 echo         Windows Activation Demo
 echo ================================================
@@ -9,25 +20,23 @@ echo.
 
 REM ===============================================
 REM [STATUS] Checking Windows activation status
-REM LicenseStatus=1 means Windows is already activated
 REM ===============================================
 echo [STATUS] Checking if Windows is already activated...
-set "currentStatus="
-for /f "tokens=2 delims==" %%i in ('wmic path SoftwareLicensingProduct where "Name like 'Windows%%'" get LicenseStatus /value ^| find "LicenseStatus"') do (
-    set "currentStatus=%%i"
+
+REM Use slmgr.vbs to check activation status
+cscript //nologo %SystemRoot%\System32\slmgr.vbs /xpr | findstr /i "permanently activated" >nul
+if %errorlevel%==0 (
+    echo [STATUS] Windows is already activated.
+    echo [INFO] No activation required.
+    timeout /t 3 /nobreak >nul
+    exit /b
 )
 
-if "%currentStatus%"=="1" (
-    echo [STATUS] Windows is already activated.
-    pause
-    exit /b
-) else (
-    echo [STATUS] Windows is not activated. Proceeding with activation...
-)
+echo [STATUS] Windows is not activated. Proceeding with activation...
 echo.
 
 REM ===============================================
-REM Detecting Windows product name and edition
+REM Detecting Windows version and edition
 REM ===============================================
 echo [STATUS] Detecting Windows version...
 for /f "tokens=2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName 2^>nul ^| find /i "ProductName"') do set "productName=%%B"
@@ -69,24 +78,18 @@ set key=
 if "%version%"=="10" (
     if /i "%edition%"=="Professional" (
         set key=W269N-WFGWX-YVC9B-4J6C9-T83GX
-        echo [STATUS] Selected key for Windows 10 Professional.
     ) else if /i "%edition%"=="Core" (
         set key=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
-        echo [STATUS] Selected key for Windows 10 Home.
     ) else if /i "%edition%"=="Enterprise" (
         set key=NPPR9-FWDCX-D2C8J-H872K-2YT43
-        echo [STATUS] Selected key for Windows 10 Enterprise.
     )
 ) else if "%version%"=="11" (
     if /i "%edition%"=="Professional" (
         set key=W269N-WFGWX-YVC9B-4J6C9-T83GX
-        echo [STATUS] Selected key for Windows 11 Professional.
     ) else if /i "%edition%"=="Core" (
         set key=NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-        echo [STATUS] Selected key for Windows 11 Home.
     ) else if /i "%edition%"=="Enterprise" (
         set key=NPPR9-FWDCX-D2C8J-H872K-2YT43
-        echo [STATUS] Selected key for Windows 11 Enterprise.
     )
 )
 
@@ -95,6 +98,7 @@ if "%key%"=="" (
     pause
     exit /b
 )
+echo [STATUS] Selected key: %key%
 echo.
 
 REM ===============================================
@@ -118,8 +122,12 @@ echo [STATUS] Activation command executed.
 echo.
 
 echo [STATUS] Verifying activation status...
-slmgr /xpr >nul 2>&1
-echo [STATUS] Activation status checked.
+cscript //nologo %SystemRoot%\System32\slmgr.vbs /xpr | findstr /i "permanently activated" >nul
+if %errorlevel%==0 (
+    echo [SUCCESS] Windows activation was successful!
+) else (
+    echo [ERROR] Activation failed. Check network or KMS server.
+)
 echo.
 
 echo ================================================
