@@ -1600,9 +1600,6 @@ echo                                   ./oooo+-.         `..-:/osso/.
 echo                                        `-:+oooooyyysyso+/-`                                        
 ping localhost -n 1 >nul
 cls
-
-chcp 65001
-cls
 echo ================================================================================================
 echo                                     Windows Activation Service 
 echo                                         by Zhuk for !Fest 
