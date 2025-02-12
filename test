@@ -24,7 +24,7 @@ REM ===============================================
 echo [STATUS] Checking if Windows is already activated...
 
 REM Use slmgr.vbs to check activation status
-cscript //nologo %SystemRoot%\System32\slmgr.vbs /xpr | findstr /i "permanently activated" >nul
+cscript //nologo %SystemRoot%\System32\slmgr.vbs /dli | findstr /i "Licensed" >nul
 if %errorlevel%==0 (
     echo [STATUS] Windows is already activated.
     echo [INFO] No activation required.
@@ -47,23 +47,16 @@ REM ===============================================
 REM Detecting Windows version and edition
 REM ===============================================
 echo [STATUS] Detecting Windows version...
-for /f "tokens=2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName 2^>nul ^| find /i "ProductName"') do set "productName=%%B"
-for /f "tokens=2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID 2^>nul ^| find "EditionID"') do set "edition=%%B"
+
+for /f "tokens=2,*" %%A in ('wmic os get caption 2^>nul') do set "productName=%%B"
 
 if "%productName%"=="" (
     echo [ERROR] Could not detect Windows product name.
     pause
     exit /b
 )
-if "%edition%"=="" (
-    echo [ERROR] Could not detect Windows edition.
-    pause
-    exit /b
-)
 
 echo [STATUS] Product: %productName%
-echo [STATUS] Edition: %edition%
-echo.
 
 REM ===============================================
 REM Checking Windows version (10 or 11)
@@ -142,7 +135,7 @@ echo [STATUS] Activation command executed.
 echo.
 
 echo [STATUS] Verifying activation status...
-cscript //nologo %SystemRoot%\System32\slmgr.vbs /xpr | findstr /i "permanently activated" >nul
+cscript //nologo %SystemRoot%\System32\slmgr.vbs /dli | findstr /i "Licensed" >nul
 if %errorlevel%==0 (
     echo [SUCCESS] Windows activation was successful!
 ) else (
