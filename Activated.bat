@@ -2,17 +2,6 @@
 cls
 color 0A
 
-REM ===============================================
-REM [CHECK] Run as Administrator
-REM ===============================================
-net session >nul 2>&1
-if %errorLevel% neq 0 (
-    echo [ERROR] Please run this script as Administrator.
-    echo [STATUS] Relaunching with Admin rights...
-    powershell -Command "Start-Process cmd -ArgumentList '/c \"%~fnx0\"' -Verb RunAs"
-    exit /b
-)
-
 echo ================================================
 echo         Windows Activation Demo
 echo ================================================
@@ -20,6 +9,7 @@ echo.
 
 REM ===============================================
 REM [STATUS] Checking Windows activation status
+REM LicenseStatus=1 means Windows is already activated
 REM ===============================================
 echo [STATUS] Checking if Windows is already activated...
 set "currentStatus="
