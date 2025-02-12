@@ -1,6 +1,10 @@
 @echo off
+Title Activating by Zhuk 
 cls
 color 0A
+rem setlocal enabledelayedexpansion
+mode con: cols=100 lines=30
+
 
 REM ===============================================
 REM [CHECK] Run as Administrator
@@ -13,9 +17,1596 @@ if %errorLevel% neq 0 (
     exit /b
 )
 
-echo ================================================
-echo         Windows Activation Demo
-echo ================================================
+ping localhost -n 1 >nul
+cls                                           
+echo                                         .-/+ossooooooo+/:.                                         
+echo                                   `:osydhyo++:     :yyyyydN@ho:`                                   
+echo                                :sho:``.       .+o``d@h./N@@@@@@@@s:                                
+echo                             -s@dd-           :--@s@@@@@@@@@@@@@@@@@Ny:                             
+echo                           /dho`.              ///N@yy::@@@@N+y@dNhd@N@@+`                          
+echo                         /ho`                 `@@@/-   `:::sdosNdd@@@o@@@N+                         
+echo                       .h+                   :o@@@@@@@@/:---:::::o@@@@@@@@@@-                       
+echo                      /h.                 `+s@@@@@@@@@@@@@@@@@@@@dy@@@@Nd@@@@o                      
+echo                     oy`                  :@@@@@@@@@@@@@@@@@@@@@@Nyyo@@@yNdsh@s                     
+echo                    +h:                 -od@@@@@@@@@@@@@@@@@@@@@@@@N.y@@@@@:`+@s                    
+echo                   -@``                 y@@@@@@@@@@@@@@@@@@@@@@@@@@@N@-d@@N-``o@:                   
+echo                   h/                   y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@h--.```.s@                   
+echo                  .NN@y.`                 hh@@@@@@dhhhN@@@@@@@@@@@@@@@@@@@s````-N:                  
+echo                  /dN@@@o`                 `yyyyyy    syN@@@@@@@@@@@@@@@@h+`````so                  
+echo                  o@@@@@@s//                            h@@@@@@@@@@@@@Nd+-``````oy                  
+echo                  +N@@@@@@@No++                         h@@@@@@@@@@@@@d:.```````ss                  
+echo                  .N@@@@@@@@@@@`                        /+N@@@@@@@@@@@s`````````d:                  
+echo                   dh@@@@@@@@N/`                          @@@@@@@@@@@@/````````:@                   
+echo                   -@o@@@@@@@@-                         yh@@@@@@@@@@@N.ydy````.d/                   
+echo                   oy:@@@@@NNs                         ./@@@@@@@@@N-.:@N:````sy                    
+echo                     syh@@@@d`                           o@@@@@@@Nd+``y+`````oy                     
+echo                      +hh@@@N-                           oh@@@@Nd/`````````.ys                      
+echo                       -hhN@@`                            oN+++:-`````````/d:                       
+echo                         +ddd.                            ..````````````:yo`                        
+echo                          `+@d:                             ``````````/yo`                          
+echo                             :yh/                         `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                  ./oss+:-`   `-::::///++oyyso/.                                   
+echo                                        `-:+oooyhhhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                    
+echo                                         .-/+ossooooooo+/:.                                         
+echo                                   `:osydhhs++/.    ./hsyyh@@ho:`                                   
+echo                                :sdy:` .`       .+o .@@y.o@@@@@@@@s:                                
+echo                             -sNh@o`           ::.@y@@@@@@@@@@@@@@@@Ny:                             
+echo                           /dds-``              -//@Nyy+-N@@@N+h@@Nh@N@@+`                          
+echo                         /ds.                   d@@s:   `:::odssNd@@@hy@@N+                         
+echo                       .ho`                   -:N@@@@@@@y:---::::/o@@@NN@@@@-                       
+echo                      /d.                   :o@@@@@@@@@@@@@@@@@@@@@y@@@@N@@@@o                      
+echo                     oh`                    d@@@@@@@@@@@@@@@@@@@@@@yho@@@y@hyNs                     
+echo                    +h-`                  +o@@@@@@@@@@@@@@@@@@@@@@@@@-o@@@@@.:@s                    
+echo                   -@``                  `@@@@@@@@@@@@@@@@@@@@@@@@@@@N@:h@@d.`-@:                   
+echo                   h/ `                  .d@@@@@@@@@@@@@@@@@@@@@@@@@@@@@d--.```/@                   
+echo                  .Ny@@+.`                 :h@@@@@@Nhhhd@@@@@@@@@@@@@@@@@@@o````@:                  
+echo                  /hh@@@@+`                  -yyyyyo   `yh@@@@@@@@@@@@@@@@h/````so                  
+echo                  oh@@@@@@s//                            `@@@@@@@@@@@@@@@o-`````oy                  
+echo                  +h@@@@@@@@@o++.                        `@@@@@@@@@@@@@N/.``````ss                  
+echo                  .N@@@@@@@@@@@@+                        `+s@@@@@@@@@@@d````````d:                  
+echo                   doN@@@@@@@@@+-                          :@@@@@@@@@@@o```````:@                   
+echo                   -@-@@@@@@@@@+                         :h@@@@@@@@@@@@-s@s```.d/                   
+echo                    oy d@@@@@@Nd                         `.d@@@@@@@@@/.:N@-```sy                    
+echo                     sy+@@@@@d`                           `N@@@@@@@ds``s/````oy                     
+echo                      +h+N@@@@-                           -yN@@@Ndo````````.ys                      
+echo                       -hod@@h                             -@s++/-````````/d:                       
+echo                         +hy@o                             `-```````````:yo`                        
+echo                          `+h@+                             ``````````/yo`                          
+echo                             :yd+`                        `````````:sy/                             
+echo                               `/ss+- `                 ```````-+ss/`                               
+echo                                   ./osyo:-`   ``:::////++osyso/.                                   
+echo                                        `-:+oooyhhhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                  
+echo                                        .-/+osysoooooo+/:.                                         
+echo                                   `:osyhdhy+++:`    -sdyhh@@ho:`                                   
+echo                                :odd/` `.        -oo -N@o.y@@@@@@@s:                                
+echo                             -sN@h@:            -:`Ny@@@@@@@@@@@@@@@Ny:                             
+echo                           /dNyo .               .//h@yyo-d@@@Nod@@@hNN@+`                          
+echo                         /@y:                    +@@d:`  `-//+dyoNd@@Nyd@N+                         
+echo                       .dy.                    `:y@@@@@@@@:---::::/o@@@@@@@@-                       
+echo                      /d-                    `oy@@@@@@@@@@@@@@@@@@@NyN@@@@N@@o                      
+echo                     oh.                     :@@@@@@@@@@@@@@@@@@@@@@yhoN@NhNy@s                     
+echo                    +h`/                   .oh@@@@@@@@@@@@@@@@@@@@@@@@/o@@@@o.hs                    
+echo                   -@```                   o@@@@@@@@@@@@@@@@@@@@@@@@@@N@/h@@s`.@:                   
+echo                   ho ``                   odN@@@@@@@@@@@@@@@@@@@@@@@@@@@@--.``:@                   
+echo                  .N/@@@:.`                  ohN@@@@@@hhh@@@@@@@@@@@@@@@@@@@/```d:                  
+echo                  /h/@@@@@+.                   +yyyyy:   /yd@@@@@@@@@@@@@@Ny:```so                  
+echo                  oyd@@@@@@y//.                            +@@@@@@@@@@@@@@o-````oy                  
+echo                  +hh@@@@@@@@@y++/                         +@@@@@@@@@@@@@/.`````ss                  
+echo                  .No@@@@@@@@@@@@d                         -+d@@@@@@@@@@@```````d:                  
+echo                   d/y@@@@@@@@@@y:                           h@@@@@@@@@@y``````:@                   
+echo                   -@`o@@@@@@@@@y                          shN@@@@@@@@@@:s@+``.d/                   
+echo                    oy -@@@@@@@@N.                         ./@@@@@@@@@+.:Nd.``sy                    
+echo                     sy.@@@@@@@`                            s@@@@@@@@y``s:```oy                     
+echo                      +h-d@@@@@-                            s@@@@@ds```````.ys                      
+echo                       -h/o@@@s                             `@h++/-```````/d:                       
+echo                         +h+d@:                             `-``````````:yo`                        
+echo                          `+ydy.                            ``````````/yo`                          
+echo                             :sdo.                        `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooyo/-`    `.:::///++ooyso/.                                   
+echo                                        `-:+oooshhhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                     
+echo                                         .-/+osyyoooooo+/:.                                         
+echo                                   `:osyydhhs++/.     :hhhhd@ho:`                                   
+echo                                :odN+.  ``        -o+ /NN/-@@@@@@@s:                                
+echo                             -s@Nydy.            -:`Ny@@@@@@@@@@@@@@Ny:                             
+echo                           /dNhs: .               `//s@hys-d@@@No@NNd@N@+`                          
+echo                         /@do`                    .@@@/.  `-//+dysNhN@dhNN+                         
+echo                       .dd:                      -/@@@@@@@@/---::://o@@@@@@@-                       
+echo                      /@:                      :oN@@@@@@@@@@@@@@@@@@NyN@@@@@@o                      
+echo                     oy-                       h@@@@@@@@@@@@@@@@@@@@@hhoN@d@dds                     
+echo                    +d --                    /oN@@@@@@@@@@@@@@@@@@@@@@@+o@@@N-ys                    
+echo                   -@` .                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@/h@@:.d:                   
+echo                   hs ```                    d@@@@@@@@@@@@@@@@@@@@@@@@@@@@d--.`:@                   
+echo                  .N.d@@N--`                   hh@@@@@@dhhdN@@@@@@@@@@@@@@@@N-``d:                  
+echo                  /h`d@@@@@o.                    yyyyyy`   shN@@@@@@@@@@@@@@y-``so                  
+echo                  oy+@@@@@@@h//-                             @@@@@@@@@@@@@@o.```oy                  
+echo                  +h/@@@@@@@@@@@+++`                         @@@@@@@@@@@@@/.````ss                  
+echo                  .N.@@@@@@@@@@@@@@:                         +o@@@@@@@@@@N``````d:                  
+echo                   d/:@@@@@@@@@@@@/.                          -@@@@@@@@@@y`````:@                   
+echo                   -@`.@@@@@@@@@@N`                         -h@@@@@@@@@@@:y@:`.d/                   
+echo                    oy  s@@@@@@@@@/                         `.d@@@@@@@@o./Ny``sy                    
+echo                     sy +@@@@@@N.                            .@@@@@@@@y`.y.``oy                     
+echo                      +h`/@@@@@@:                            /h@@@@ds``````.ys                      
+echo                       -h/-@@@@o                              yd++/-``````/d:                       
+echo                         +h:oNh-                             `-.````````:yo`                        
+echo                          `+ysdo                            ``````````/yo`                          
+echo                             :shs-                        `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooys/-`    ``-::///++oosso/.                                   
+echo                                        `-:+oooshhhhhyso+/-`                                     
+ping localhost -n 1 >nul
+cls                                                                                               
+echo                                         .-/+osyyoooooo+/:.                                         
+echo                                   `:ossyyhyy+++-`    `o@ydddho:`                                   
+echo                                :oyNy.   .`        -o+`+@@:/N@@@@@s:                                
+echo                             -s@Nhy@+`            -:`@y@@@@@@@@@@@@@Ny:                             
+echo                           /d@@ss```                //o@dys:h@@@@oNNNdN@+`                          
+echo                         /@Ns-                      d@@s-   -+/+dysNh@Nh@N+                         
+echo                       .dN+.                      `:d@@@@@@@s---::://s@@@@@@-                       
+echo                      /@s                       `oy@@@@@@@@@@@@@@@@@@@h@@@NN@o                      
+echo                     oy-`                       -@@@@@@@@@@@@@@@@@@@@@hhs@@hNhs                     
+echo                    +@  +`                    `oy@@@@@@@@@@@@@@@@@@@@@@@+s@@@oys                    
+echo                   -N.  .                     :@@@@@@@@@@@@@@@@@@@@@@@@@@@/@@d.d:                   
+echo                   hs.````                    :d@@@@@@@@@@@@@@@@@@@@@@@@@@@h--`:@                   
+echo                  .N /@@@N--`                   -hd@@@@@Nhhd@@@@@@@@@@@@@@@@@d``d:                  
+echo                  /h /@@@@@@s-                    .yyyyys   -hd@@@@@@@@@@@@@@s.`so                  
+echo                  oy @@@@@@@@@///                             :@@@@@@@@@@@@@+.``oy                  
+echo                  +h @@@@@@@@@@@@o++:                         :@@@@@@@@@@@@/.```ss                  
+echo                  .N y@@@@@@@@@@@@@@h                         .+d@@@@@@@@@N`````d:                  
+echo                   d/`y@@@@@@@@@@@@o:                           h@@@@@@@@@y````:@                   
+echo                   -@``/@@@@@@@@@@@+                          sh@@@@@@@@@@-hd..d/                   
+echo                    oy  `d@@@@@@@@@h                          .o@@@@@@@@o.o@/`sy                    
+echo                     sy  h@@@@@@@-                             d@@@@@@@y`.s``oy                     
+echo                      +h``h@@@@@@/                            .y@@@@ds`````.ys                      
+echo                       -h/ o@@@@o                             `o@++/-`````/d:                       
+echo                         +h:-dNy.                            ``-.```````:yo`                        
+echo                          `+y/sd-                           ``````````/yo`                          
+echo                             :syy/`                       `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./oosy+-`     `.::///++oosso/.                                   
+echo                                        `-:+ooosyhhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                               
+echo                                         .-/+osyysooooo+/:.                                         
+echo                                   `:osshohhhs++/.     :dddddho:`                                   
+echo                                :os@@:`  `.         :o/`s@h-s@@@@@s:                                
+echo                             -sNNdyy@/             -: @y@@@@@@@@@@@@Ny:                             
+echo                           /dN@d++ ``                :/+@@yy:h@@@dsNN@@@+`                          
+echo                         /@@d+`                      o@@d:   .+++dys@d@@dN+                         
+echo                       .d@h-                        -o@@@@@@@d:--::://y@@N@@-                       
+echo                      /@d.                        :oN@@@@@@@@@@@@@@@@@Nh@@@N@o                      
+echo                     oy`:                         y@@@@@@@@@@@@@@@@@@@@yhy@@@@s                     
+echo                    +d.  o                      :o@@@@@@@@@@@@@@@@@@@@@@@/h@@@ys                    
+echo                   -@-   `                      y@@@@@@@@@@@@@@@@@@@@@@@@N@/N@/d:                   
+echo                   h+/ ````                     odN@@@@@@@@@@@@@@@@@@@@@@@@@s-.:@                   
+echo                  .N `y@@@N--.                    +h@@@@@@@hddN@@@@@@@@@@@@@@@+`d:                  
+echo                  /h `y@@@@@@h:`                    /yyyyy/  `ohN@@@@@@@@@@@@d/`so                  
+echo                  oy /@@@@@@@@@+//-                             h@@@@@@@@@@@@/``oy                  
+echo                  +h :@@@@@@@@@@@@h+++`                         d@@@@@@@@@@@/```ss                  
+echo                  .N `@@@@@@@@@@@@@@@@:                         /s@@@@@@@@@@````d:                  
+echo                   d/ -N@@@@@@@@@@@@d/.                          /@@@@@@@@@o```:@                   
+echo                   -@` `s@@@@@@@@@@@@                          :h@@@@@@@@@N:@o.d/                   
+echo                    oy   .N@@@@@@@@@@.                         `-N@@@@@@@+.yh.sy                    
+echo                     sy  .N@@@@@@@+`                            o@@@@@@ds`:/`oy                     
+echo                      +h` -N@@@@@No                            `sN@@@ds````.ys                      
+echo                       -h/ .d@@@@s`                            `/N++/-````/d:                       
+echo                         +h: +N@y`                           ```..``````:yo`                        
+echo                          `+y/:@y`                          ``````````/yo`                          
+echo                             :sss+:                       `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./oooys:.     ``::///++oosso/.                                   
+echo                                        `-:+ooooshhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                   
+echo                                         .-/+osyyyooooo+/:.                                         
+echo                                   `:osshsohhho++..    `sNd@dyo:`                                   
+echo                                :osh@s.   .`         :o/-yNs:d@@@@s:                                
+echo                             -s@Nddyhd-             -:`dy@@@@@@@@@@@Ny:                             
+echo                           /d@@@y+/ `                 ./+NNyy/h@@@hh@@d@+`                          
+echo                         /@@@s:                       -@@N/`  .o++dshdNNd@+                         
+echo                       .d@N/.                        .:N@@@@@@@:-:::://d@@@@-                       
+echo                      /@ho                         `oh@@@@@@@@@@@@@@@@@Nd@@NNo                      
+echo                     oy`-`                         .@@@@@@@@@@@@@@@@@@@@yhd@dNs                     
+echo                    +h:  .o                       os@@@@@@@@@@@@@@@@@@@@@@:@@Nds                    
+echo                   -N+`  ``                       N@@@@@@@@@@@@@@@@@@@@@@@Ndo@yd:                   
+echo                   h//.`````                      d@@@@@@@@@@@@@@@@@@@@@@@@@N/-:@                   
+echo                  .N  :d@@@@:--                     yh@@@@@@ddd@@@@@@@@@@@@@@@N.d:                  
+echo                  /h  -d@@@@@@N:.                     syyyyy` `.hd@@@@@@@@@@@@h.so                  
+echo                  oy  h@@@@@@@@@y///                             :@@@@@@@@@@@h-`oy                  
+echo                  +h  y@@@@@@@@@@@@@+++/                         :@@@@@@@@@@@:``ss                  
+echo                  .N  +@@@@@@@@@@@@@@@@@                         -o@@@@@@@@@y```d:                  
+echo                   d/ `/@@@@@@@@@@@@@@+/                         ``N@@@@@@@@/``:@                   
+echo                   -@`  .h@@@@@@@@@@@@/                         `hd@@@@@@@@d/@-d/                   
+echo                    oy    -@@@@@@@@@@@s                         `-h@@@@@@@/-d+sy                    
+echo                     sy   /@@@@@@@@h`                           `-@@@@@@d+`+.oy                     
+echo                      +h`  /@@@@@@@s`                          ``+@@@@do```.ys                      
+echo                       -h/  :N@@@@s`                          ```:@+//.```/d:                       
+echo                         +h: .h@@y`                         `````..`````:yo`                        
+echo                          `+y/`sN+                          ``````````/yo`                          
+echo                             :ss/o+.                      `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooooy/.      `.:///++oosso/.                                   
+echo                                        `-:+oooosyhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                    
+echo                                         .-/+osyyysoooo+/:.                                         
+echo                                   `:ossyh/shhy++/``   `:d@ddyo:`                                   
+echo                                :sysdh/`  ```         /o::d@o+N@@@s:                                
+echo                             -s@@@ddsdh.             -/`dyN@@@@@@@@@Ny:                             
+echo                           /d@@Nd+o- `                 `/+@@hy/h@@@y@N@d+`                          
+echo                         /@@@@o.                       `@@@+`  .o+ododdN@d+                         
+echo                       .d@@h-`                         :y@@@@@NN/:::::/+NN@@-                       
+echo                      /@hh.                          :o@@@@@@@@@@@@@@@@@N@@@No                      
+echo                     od` /                           s@@@@@@@@@@@@@@@@@@@yhN@Ns                     
+echo                    +@:`  -o                       -sd@@@@@@@@@@@@@@@@@@@@N/@@Ns                    
+echo                   -@s.   ``                       /@@@@@@@@@@@@@@@@@@@@@@@NydNd:                   
+echo                  h/`o ``````                     -d@@@@@@@@@@@@@@@@@@@@@@@@d-/@                   
+echo                  .N   /@@@@@+--`                    -hd@@@@@NhddN@@@@@@@@@@@@@+d:                  
+echo                  /h   :N@@@@@@@+:                     .yyyhho ``ohN@@@@@@@@@@N/so                  
+echo                  oy   N@@@@@@@@@N///-                             @@@@@@@@@@Ns.oy                  
+echo                  +h   @@@@@@@@@@@@@@h+++.                       ``@@@@@@@@@@h-`ss                  
+echo                  .N   h@@@@@@@@@@@@@@@@@o                       ``+h@@@@@@@@+``d:                  
+echo                   d/  .o@@@@@@@@@@@@@@d/-                        ``y@@@@@@@N.`:@                   
+echo                   -@`   .@@@@@@@@@@@@@@                        ` odN@@@@@@@syod/                   
+echo                    oy     :@@@@@@@@@@@@`                       ``-o@@@@@@N-+hsy                    
+echo                     sy    o@@@@@@@@N-`                        ```.@@@@@@h:./oy                     
+echo                      +h`   s@@@@@@@h-                         ```/d@@@h/``.ys                      
+echo                       -h/   o@@@@@y.                         ````:@+/:.``/d:                       
+echo                         +h:  -@@dy.                        ``````..````:yo`                        
+echo                          `+y/ .@@:                         ``````````/yo`                          
+echo                             :ss:/s/                      `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+ss-`     ``:///++oosso/.                                   
+echo                                        `-:+oooosyhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                     
+echo                                         .-/+osyyysoooo+/:.                                         
+echo                                   `:osssh+:ydhs++-.   `.sN@dyo:`                                   
+echo                                :shoshy-   ``         `/o:+@d+y@@@s:                                
+echo                             -s@@@dNhsdy`             -/`hyN@@N@@@@@Ny:                             
+echo                           /d@N@Nh/o. `                  /+@@hy+d@@@hN@d+`                          
+echo                         /@@@@h+`                        y@@s. `.ooodod@N@+                         
+echo                       .d@@No.                          .+@@@@NNN+:-:::/s@N@-                       
+echo                      /Ndyy                           `od@@@@@@@@@@@@@@@@@N@No                      
+echo                     oN- .:                           `N@@@@@@@@@@@@@@@@@@hhNNs                     
+echo                    +N-/   :o                        +sN@@@@@@@@@@@@@@@@@@@hs@@s                    
+echo                   -@s:`   ``                        h@@@@@@@@@@@@@@@@@@@@@@@s@N:                   
+echo                   h/`:/ ````.`                      odN@@@@@@@@@@@@@@@@@@@@@@o/@                   
+echo                  .N   `oN@@@@y--.                     +h@@@@@@ddd@@@@@@@@@@@@@dd:                  
+echo                  /h    :@@@@@@@@h:`                     /yhhhh- .:h@@@@@@@@@@@hso                  
+echo                  oy   .@@@@@@@@@@@s///                           ``o@@@@@@@@@@:oy                  
+echo                  +h   `@@@@@@@@@@@@@@@o+++                       ``s@@@@@@@@@o`ss                  
+echo                  .N    @@@@@@@@@@@@@@@@@@@.                      ``/s@@@@@@@@.`d:                  
+echo                   d/   -s@@@@@@@@@@@@@@@s/`                      ```/@@@@@@@h`:@                   
+echo                   -@`   `-@@@@@@@@@@@@@@+                      ` `:dN@@@@@@@+hd/                   
+echo                    oy      -@@@@@@@@@@@@s                      ```./@@@@@@h.hhy                    
+echo                     sy     s@@@@@@@@@o.                       `````h@@@@Ny./sy                     
+echo                      +h`    h@@@@@@@do                        ````-d@@Ny-`.ys                      
+echo                       -h/    y@@@@@h:                        `````:d//:.`/d:                       
+echo                         +h:   +N@dh.                       ```````..```:yo`                        
+echo                          `+y/  /@d-                        ``````````/yo`                          
+echo                             :ss:.os-                     `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+/y/`     ``.://++oosso/.                                   
+echo                                        `-:+oooooyhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                     
+echo                                        .-/+osyyyyoooo+/:.                                         
+echo                                   `:osyysy-+ddh++/ .  `./@Ndyo:`                                   
+echo                                :sds+yds`   ``         `++:s@y+@@@s:                                
+echo                             -s@NNd@Nyo@y`             -:`hyN@NN@@@@Ny:                             
+echo                           /d@@d@@h:o. `                  /+d@hyo@@@dd@@+`                          
+echo                         /@@@@@s/                         +@@h-``-soshyd@N+                         
+echo                       .d@@@@/.                          `:N@@NNNNo:-:://d@@-                       
+echo                      /Ndhy+                            /s@@@@@@@@@@@@@@@@@@@o                      
+echo                     o@+  -.                            o@@@@@@@@@@@@@@@@@hd@Ns                     
+echo                    +No--   :s                        `sh@@@@@@@@@@@@@@@@@@@oN@s                    
+echo                   -@/y.    ``                        `@@@@@@@@@@@@@@@@@@@@@Ndd@:                   
+echo                   h/  o- ```..`                       d@@@@@@@@@@@@@@@@@@@@@@@/@                   
+echo                  .N    `oN@@@@@---                      yh@@@@@Nddd@@@@@@@@@@@N@:                  
+echo                  /h    `:@@@@@@@@@/:                      shhhhs ..yd@@@@@@@@@Nho                  
+echo                  oy    :@@@@@@@@@@@N///:                         ```-@@@@@@@@@soy                  
+echo                  +h    -@@@@@@@@@@@@@@@@+++/                     ```-@@@@@@@@N-ss                  
+echo                  .N    `N@@@@@@@@@@@@@@@@@@d                     ```-oN@@@@@@y`d:                  
+echo                   d/    -y@@@@@@@@@@@@@@@N/:                     ````-@@@@@@@/:@                   
+echo                   -@`    `-@@@@@@@@@@@@@@N`                     ``..h@@@@@@@dy@/                   
+echo                    oy      `.N@@@@@@@@@@@@.                     ```.-N@@@@@++@y                    
+echo                     sy      y@@@@@@@@@@.`                     ``````y@@@@@o.hy                     
+echo                      +h`    `d@@@@@@@Ny`                       ````-d@@@s..ys                      
+echo                       -h/    `h@@@@@@/                       ``````:h//-`/d:                       
+echo                         +h:    s@@dh-                       ```````.```:yo`                        
+echo                          `+y/   s@d.                       ``````````/yo`                          
+echo                             :ss: :yo`                    `````````:sy/                             
+echo                               `/ss+-`                  ```````-+ss/`                               
+echo                                   ./ooo+/os.      `.://++oosso/.                                   
+echo                                        `-:+ososoyyhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                    
+echo                                         .-/+osyyyysooo+/:.                                         
+echo                                   `:oyyysy/`yNdy++-`` `.:yNdyo:`                                   
+echo                                :sdh/+hh+    ``         `++/y@sy@@s:                                
+echo                             -sN@@@dNNso@s              -:.hy@@NN@@@Ny:                             
+echo                           /d@@N@@dy-o. `                  :+d@dyoN@NhN@+`                          
+echo                         /@@@@@No:                         :@@@-``-soyyhNN+                         
+echo                       .d@@@Nd-`                           -h@@NNNNo--::/s@@-                       
+echo                      /N@hyh:                            .o@@@@@@@@@@@@@@@NN@o                      
+echo                     oNd`  /`                            `N@@@@@@@@@@@@@@@@hd@s                     
+echo                    +dd`+`   -y`                        /sN@@@@@@@@@@@@@@@@@@y@s                    
+echo                   -@.s+.    ``                         +@@@@@@@@@@@@@@@@@@@@@y@:                   
+echo                   h/   h````....                       :@@@@@@@@@@@@@@@@@@@@@Ns@                   
+echo                  .N     `oN@@@@@/--.                     -h@@@@@@dd@N@@@@@@@@@@@:                  
+echo                  /h     `:N@@@@@@@@h:.                     -hhhhh-`-+h@@@@@@@@@@o                  
+echo                  oy     :@@@@@@@@@@@@y///.                       `````@@@@@@@@@sy                  
+echo                  +h     -@@@@@@@@@@@@@@@@y+++-                   ```.`N@@@@@@@sss                  
+echo                  .N     `@@@@@@@@@@@@@@@@@@@@+                   ````.+@@@@@@@-d:                  
+echo                   d/     :y@@@@@@@@@@@@@@@@h/-                  ``````.N@@@@@d:@                   
+echo                   -@`     `-d@@@@@@@@@@@@@@s                    `````y@@@@@@@sN/                   
+echo                    oy       `.@@@@@@@@@@@@@h                  ` ```..-@@@@@@:@y                    
+echo                     sy       s@@@@@@@@@@+.                     ``````s@@@@h-hy                     
+echo                      +h`     `d@@@@@@@@h/                    ` `````.d@@d/.ys                      
+echo                       -h/     `d@@@@@@+`                      ``````/y/:./d:                       
+echo                         +h:    `y@@dd:                      ```````````:yo`                        
+echo                          `+y/   `d@h`                      ``````````/yo`                          
+echo                             :ss:  +h+                    `````````:sy/                             
+echo                               `/ss+-``                 ```````-+ss/`                               
+echo                                   ./ooo+::y/`     ``-//++oosso/.                                   
+echo                                        `-:+osssosyhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                       
+echo                                         .-/+osyyyyyooo+/:.                                         
+echo                                   `:oyhysss.-@@ho+/`. `.:o@@yo:`                                   
+echo                                :sd@+:sdh:    `          .++ohdsN@s:                                
+echo                             -sNN@@h@NNoo@s              ::-yh@NN@@@Ny:                             
+echo                           /d@@@@N@ds.o. `                  -+d@dyyN@@@@+`                          
+echo                         /@@@@@@N+-                         .N@@:``:sshs@N+                         
+echo                       .d@@@@Nh.`                           .o@@NNN@o--:/+@@-                       
+echo                      /N@hhsh.                             /y@@@@@@@@@@@@@@N@o                      
+echo                     o@N/   /`                             s@@@@@@@@@@@@@@@@dNs                     
+echo                    +hd+`o    .h.                        `sh@@@@@@@@@@@@@@@@@yNs                    
+echo                   -@`/h:`     `                          @@@@@@@@@@@@@@@@@@@@hN:                   
+echo                   h/   `d```.....`                       y@N@@@@@@@@@@@@@@@@@@d@                   
+echo                  .N      `o@@@@@@y---`                     ohN@@@@Nd@@@@@@@@@@@@:                  
+echo                  /h      `:@@@@@@@@@@+:                      ohhhho`-/hN@@@@@@@No                  
+echo                  oy      -@@@@@@@@@@@@@+///                       `````h@@@@@@@hy                  
+echo                  +h      -@@@@@@@@@@@@@@@@@++++`                  `````d@@@@@@@ys                  
+echo                  .N      `N@@@@@@@@@@@@@@@@@@@@.                ` `````+d@@@@@sd:                  
+echo                   d/      :s@@@@@@@@@@@@@@@@@o/`                ````````@@@@@@+@                   
+echo                   -@`      `-y@@@@@@@@@@@@@@@-                  ```.``s@@@@@@hN/                   
+echo                    oy         .h@@@@@@@@@@@@@:                 ``.``.`.@@@@@ohy                    
+echo                     sy        o@@@@@@@@@@@..                   ```````s@@@@oyy                     
+echo                      +h`       h@@@@@@@@dy                    ```````-@@@y-ys                      
+echo                       -h/      `d@@@@@@s:                     ```````oo:-/d:                       
+echo                         +h:     `h@@dd/`                    ```````````:yo`                        
+echo                          `+y/    .@@h`                     ``````````/yo`                          
+echo                             :ss:  `sd:                   `````````:sy/                             
+echo                               `/ss+-``                 ```````-+ss/`                               
+echo                                   ./ooo+:-oy.      `.:/++oosso/.                                   
+echo                                        `-:+osssooyyhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                               
+echo                                         .-/+osyyyyyooo+/:.                                         
+echo                                   `:oyhhsss: oN@h++- .`.:+h@yo:`                                   
+echo                                :sd@y::h@y.`  ``          -oosdyh@s:                                
+echo                             -sN@dNNhN@@oo@s              :-:yd@NN@@Ny:                             
+echo                           /d@@@N@@@hs.o. `                  -+@@dyh@Nd@+`                          
+echo                         /@@@@@@@@+-                         `@@N:``+ssydN+                         
+echo                       .d@@@@@@y.`                           `/@@NNN@+-::/y@-                       
+echo                      /@N@hysh.                             -o@@@@@@@@@@@@@NNo                      
+echo                     o@d@`   /`                             .@@@@@@@@@@@@@@@d@s                     
+echo                    +hoN..o     y/                         :sN@@@@@@@@@@@@@@@d@s                    
+echo                   -@`.oh.`     `                          /@@@@@@@@@@@@@@@@@@@@:                   
+echo                   h/    `d```......                       .@@@@@@@@@@@@@@@@@@@N@                   
+echo                  .N       `+d@@@@@@:--.                     .hd@@@@@d@@@@@@@@@@@:                  
+echo                  /h        :h@@@@@@@@@d:-                     .hhhhh`.-h@@@@@@@@o                  
+echo                  oy       .@@@@@@@@@@@@@d///:                     ``````y@@@@@@Ny                  
+echo                  +h       `@@@@@@@@@@@@@@@@@@+++/               ` ``````y@@@@@@hs                  
+echo                  .N        @@@@@@@@@@@@@@@@@@@@@@               ` ``````/d@@@@@d:                  
+echo                   d/       -+@@@@@@@@@@@@@@@@@@//               `````````@@@@@h@                   
+echo                   -@`        -o@@@@@@@@@@@@@@@@                 ```````o@@@@@@@/                   
+echo                    oy          .+@@@@@@@@@@@@@N                ````````-@@@@dyy                    
+echo                     sy         /@@@@@@@@@@@+-`                 ````````y@@@yyy                     
+echo                      +h`        y@@@@@@@@Ny:                  ````````-N@@+ys                      
+echo                       -h/       `d@@@@@@d+                   ````````.s/:/d:                       
+echo                         +h:      `h@@@@o.                  ````````````:yo`                        
+echo                          `+y/     -N@h`                    ``````````/yo`                          
+echo                             :ss:   -hd-                  `````````:sy/                             
+echo                               `/ss+- ``                ```````-+ss/`                               
+echo                                   ./ooo+:-:s+      `.-/++oosso/.                                   
+echo                                        `-:+ossssoyyyyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                     
+echo                                         .-/+oosyyyysoo+/:.                                         
+echo                                   `:oyhdss+o``d@dy+/`...:+sdyo:`                                   
+echo                                :sd@@/.+@@s.`  ``          :ssydyds:                                
+echo                             -sN@Nd@ddN@@oo@s              /-/y@N@@@Ny:                             
+echo                           /d@@@@@N@@ho.s.                    -o@@dy@@@d+`                          
+echo                         /@@@@@@@@@/-                         `d@N-`.ssyhN+                         
+echo                       .d@@@@@@@y`                            `:N@NN@@/.:/sd-                       
+echo                      /dh@dyssy.                             `+@@@@@@@@@@@@@No                      
+echo                     ods@s    /`                              h@@@@@@@@@@@@@@@s                     
+echo                    +h-@h :+     os                         `sd@@@@@@@@@@@@@@Nds                    
+echo                   -@` -yh.`     `                           d@@@@@@@@@@@@@@@@NN:                   
+echo                   h/     .d```......`                       o@N@@@@@@@@@@@@@@@@@                   
+echo                  .N        `+y@@@@@@y---`                     +dN@@@@@d@@@@@@@@@:                  
+echo                  /h         :o@@@@@@@@@@s:`                     ohhhh:.-y@@@@@@@o                  
+echo                  oy         N@@@@@@@@@@@@@s///.                   ```````s@@@@@@y                  
+echo                  +h         @@@@@@@@@@@@@@@@@@y+++-              ````````y@@@@@Ns                  
+echo                  .N         h@@@@@@@@@@@@@@@@@@@@@o              ````````/d@@@@N:                  
+echo                   d/        -/N@@@@@@@@@@@@@@@@@h/-              ````````.N@@@N@                   
+echo                   -@`         .:@@@@@@@@@@@@@@@@o              ` ```````o@@@@@N/                   
+echo                    oy           `-@@@@@@@@@@@@@@o              ```.`````-N@@Nhy                    
+echo                     sy          .@@@@@@@@@@@@-.`              `````````.d@@@dy                     
+echo                      +h`         o@@@@@@@@@dy                 `````````/@@shs                      
+echo                       -h/         y@@@@@@N+.                 `````````-s:+d:                       
+echo                         +h:       `h@@@@h.                 ````````````:yo`                        
+echo                          `+y/      -N@h`                   ``````````/yo`                          
+echo                             :ss:    :dd.                 `````````:sy/                             
+echo                               `/ss+-  ``               ```````-+ss/`                               
+echo                                   ./ooo+:--+s-     `../++oosso/.                                   
+echo                                        `-:+osyssosyyyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+oosyyyysoo+/:.                                         
+echo                                   `:oyddy+o+: :NNdo+- -.:+shyo:`                                   
+echo                                :sd@@y-`y@do``  ``         `+ysdhhs:                                
+echo                             -sN@@@@@h@@@@o+@y             `+-+yN@@@Ny:                             
+echo                           /d@@@@@@N@@ho`o-                   `:oNNhyNNd+`                          
+echo                         /@@@@@@@@@@/-                         `h@N-`-ysh@+                         
+echo                       .d@@@@@@@@y`                             -@@N@@d--:od-                       
+echo                      /d+@Nhyssy-                              /h@@@@@@@@@NNNo                      
+echo                     oyod@:    /.                              /@@@@@@@@@@@@N@s                     
+echo                    +h`o@+ :o     :d.                         /y@@@@@@@@@@@@@@Ns                    
+echo                   -@` `-yh``      `                          :@@@@@@@@@@@@@@@@@:                   
+echo                   h/      `d-``.......                       `@@@@@@@@@@@@@@@@@@                   
+echo                  .N         `:oN@@@@@@:---                     .d@@@@@@d@@@@@@@@:                  
+echo                  /h          -/@@@@@@@@@@N/:                     -hhhh+`-y@@@@@@o                  
+echo                  oy          y@@@@@@@@@@@@@@+///`                ``.``````s@@@@@y                  
+echo                  +h          y@@@@@@@@@@@@@@@@@@o+++.            `````````y@@@@@s                  
+echo                  .N          o@@@@@@@@@@@@@@@@@@@@@@-            `````````/@@@@@:                  
+echo                   d/         ./d@@@@@@@@@@@@@@@@@@o/`            `````````-@@@@@                   
+echo                   -@`          .-d@@@@@@@@@@@@@@@@.            ``````````sN@@@@/                   
+echo                    oy            `.h@@@@@@@@@@@@@@.            ``````````/@@@Ny                    
+echo                     sy            @@@@@@@@@@@@o-``            ``````````-@@N@y                     
+echo                      +h`          :@@@@@@@@@Ny:               ``````````s@dds                      
+echo                       -h/          s@@@@@@@s/                ``````````/++d:                       
+echo                         +h:         y@@N@@-`                ```````````:yo`                        
+echo                          `+y/       :N@d`                  ``````````/yo`                          
+echo                             :ss:     /@d.                `````````:sy/                             
+echo                               `/ss+-  `.`              ```````-+ss/`                               
+echo                                   ./ooo+:-.:oo      ..:++oosso/.                                   
+echo                                        `-:+osyyssoysyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                    
+echo                                         .-/+oosyyyyyoo+/:.                                         
+echo                                   `:oy@dhoo/+. y@@h+/`.-:+osyo:`                                   
+echo                                :sdN@@/..d@d+``  `         `.syydys:                                
+echo                             -sN@@@hNNhN@@@++dy             `+:odNN@Ny:                             
+echo                           /d@@@@@N@N@@hs`o:                  ``:sNNhd@@+`                          
+echo                         /@@@@@@@@@@N/-                        `.h@@.`+yh@+                         
+echo                       .h@@@@@@@@@y`                            `-d@N@@y.:oh-                       
+echo                      /h-d@@yysoy:                              -y@@@@@@@@NN@o                      
+echo                     oy:s@N.    :-                              .N@@@@@@@@@@@Ns                     
+echo                    +h -y@: :s     `do                         .s@@@@@@@@@@@@@@s                    
+echo                   -@`  .:yd.`      `                           @@@@@@@@@@@@@@@@:                   
+echo                   h/        d/ ``.......                       s@@@@@@@@@@@@@@@@                   
+echo                  .N          `.od@@@@@@d---.                     sd@@@@N@@@@@@@@:                  
+echo                  /h           `:h@@@@@@@@@@d:-                   ``yhhho`-yN@@@@o                  
+echo                  oy           /@@@@@@@@@@@@@@d////               ``````````h@@@@y                  
+echo                  +h           :@@@@@@@@@@@@@@@@@@N++++           ``````````h@@@@s                  
+echo                  .N           -@@@@@@@@@@@@@@@@@@@@@@N           ``````````+@@@@:                  
+echo                   d/           /o@@@@@@@@@@@@@@@@@@N//           ``````````/@@@@                   
+echo                   -@`            -o@@@@@@@@@@@@@@@@d            ``````````yN@@@/                   
+echo                    oy              ./@@@@@@@@@@@@@@h            ```.``````s@@@y                    
+echo                     sy             o@@@@@@@@@@@N:-`           ```````````/@@Ny                     
+echo                      +h`           `N@@@@@@@@@hy               `````````.@NNs                      
+echo                       -h/           /@@@@@@@d+`              ``````````.+od:                       
+echo                         +h:          s@@N@@/.               ```````````:yo`                        
+echo                          `+y/        :N@@`                 ``````````/yo`                          
+echo                             :ss:      oNh`               `````````:sy/                             
+echo                               `/ss+-   `.`             ```````-+ss/`                               
+echo                                   ./ooo+:-../o:     `.-/+oosso/.                                   
+echo                                        `-:+osyyssossyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+oossyyyyso+/:.                                         
+echo                                   `:oy@Nhs/o// .@@@y+-`::+osyo:`                                   
+echo                                :sdNNNh- /@Ny+`` ``        ``:yy@ys:                                
+echo                             -sN@@@Ny@Nd@@@@++dh             .+/o@@@Ny:                             
+echo                           /d@@@@@@NNN@@hs`+/                 ```/y@@hN@+`                          
+echo                         /@N@@@@@@@@@N+:                       ``.d@h`.yy@+                         
+echo                       .hyN@@@@@@@@h.                           ``-d@@@d+-+h-                       
+echo                      /h-:@@@yyooy/                              .s@@@@@@@NN@o                      
+echo                     oy`sy@@`    ::                              `d@@@@@@@@@@@s                     
+echo                    +h `:@@- :y      od`                         oh@@@@@@@@@@@@s                    
+echo                   -@`   ./yd.`                                  o@@@@@@@@@@@@@@:                   
+echo                   h/         ss ``.......`                      -@N@@@@@@@@@@@@@                   
+echo                  .N            `+s@@@@@@@o---`                    :dN@@@N@@@@@@@:                  
+echo                  /h             :+@@@@@@@@@@@s:.                 ```+hhhs`-h@@@@o                  
+echo                  oy            `@@@@@@@@@@@@@@@y///-             ```````````@@@@y                  
+echo                  +h             N@@@@@@@@@@@@@@@@@@h+++:         ```````````N@@@s                  
+echo                  .N             d@@@@@@@@@@@@@@@@@@@@@@s         ``````````.s@@@:                  
+echo                   d/            -/N@@@@@@@@@@@@@@@@@@h/-        ````````````y@@@                   
+echo                   -@`             -:@@@@@@@@@@@@@@@@@+          ``````````.d@@@/                   
+echo                    oy               `.@@@@@@@@@@@@@@@/          `.````````.d@@y                    
+echo                     sy              -N@@@@@@@@@@@y:.`          ```````````y@@y                     
+echo                      +h`             h@@@@@@@@@@h:            ```````````/@@s                      
+echo                       -h/            .N@@@@@@@o:              ``````````:sd:                       
+echo                         +h:           /@@@@@s-              ```````````:yo`                        
+echo                          `+y/         :@@N.                ``````````/yo`                          
+echo                             :ss:       sNh`              `````````:sy/                             
+echo                               `/ss+-    `.`            ```````-+ss/`                               
+echo                                   ./ooo+:-..:+/.    `.-:+oosso/.                                   
+echo                                        `-:+osyyyyosssso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooosyyyyso+/:.                                         
+echo                                   `:oy@@dy+/++- +N@do:.-/+osso:`                                   
+echo                                :sd@NNNo` o@Ns/`` ``       ``.ohdds:                                
+echo                             -sN@@@@@y@@d@@@@++hd            `://y@@Ny:                             
+echo                           /hN@@@@@@NNN@@hs`/+                ```.+d@d@@+`                          
+echo                         /hdN@@@@@@@@@@+:                      ```-d@o`+hd+                         
+echo                       .hod@@@@@@@@@d-                          ```-d@@dh-+h-                       
+echo                      /h..y@@dysooy+`                            `.o@@@@@@@N@o                      
+echo                     oy`:o@@d`    ./                             ``y@@@@@@@@@@s                     
+echo                    +h  .:N@. .h.     .d+                         /y@@@@@@@@@@@s                    
+echo                   -@`   `.:yd-`                                 `.N@@@@@@@@@@@@:                   
+echo                   h/          /d```........                       h@@@@@@@@@@@@@                   
+echo                  .N             `:o@@@@@@@N:---                   ``h@@@@N@@@@@@:                  
+echo                  /h              .:d@@@@@@@@@@@/:                 ```:hhhs`:d@@@o                  
+echo                  oy              s@@@@@@@@@@@@@@@+///`            ``````````-@@@y                  
+echo                  +h              o@@@@@@@@@@@@@@@@@@@s+++.      ` ``````````:@@@s                  
+echo                  .N              +@@@@@@@@@@@@@@@@@@@@@@@-      ` ``````````-@@@:                  
+echo                   d/             `/y@@@@@@@@@@@@@@@@@@@o/`      ````````````.N@@                   
+echo                   -@`              `:s@@@@@@@@@@@@@@@@@`        ```````````/N@@/                   
+echo                    oy                `.+@@@@@@@@@@@@@@N        ``.``.``````:@@y                    
+echo                     sy                h@@@@@@@@@@@@::`         ```````````-N@y                     
+echo                      +h`              /@@@@@@@@@@hy           ```````````.@@s                      
+echo                       -h/              d@@@@@@@h+`            ``````````.sd:                       
+echo                         +h:            -@@@@@d-`           ````````````:yo`                        
+echo                          `+y/          -@@@:               ``````````/yo`                          
+echo                             :ss:        sNh`             `````````:sy/                             
+echo                               `/ss+-     .-`           ```````-+ss/`                               
+echo                                   ./ooo+:-.`.:o:`   `.-:+oosso/.                                   
+echo                                        `-:+osyhyysossso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                 
+echo                                         .-/+ososyyyyso+/:.                                         
+echo                                   `:oy@@Nys/++/``h@Nh+-./+osso:`                                   
+echo                                :sd@NN@@: `yNNs/`` ``      ```:hdds:                                
+echo                             -sN@@@@@dh@@@@@@N++y@           ``+/+d@Ny:                             
+echo                           /hdN@@@@@@N@N@@dy.-s               ````-oNNd@+`                          
+echo                         /hy@@@@@@@@@@@@s:`                    ````:@N:-yd+                         
+echo                       .h++@@@@@@@@@Nd:                         ````-@Nddo+h-                       
+echo                      /h.`.@@@dsso+ss-                           ```o@@@@@@N@o                      
+echo                     oy` soN@d     `/`                           ```o@@@@@@@@@s                     
+echo                    +h   -/@@- `h:      od`                       `-yN@@@@@@@@@s                    
+echo                   -@`    `.:yd+``                                ``d@@@@@@@@@@@:                   
+echo                   h/           .@/ ``.......`                    ``o@@@@@@@@@@@@                   
+echo                  .N              ``+s@@@@@@@h----                 ```s@@@@N@N@@@:                  
+echo                  /h                :+@@@@@@@@@@@@::               ````.hhhs.+@@@o                  
+echo                  oy               `@@@@@@@@@@@@@@@@////           ```````````o@@y                  
+echo                  +h               `@@@@@@@@@@@@@@@@@@@N++++     ` ```````````s@@s                  
+echo                  .N                N@@@@@@@@@@@@@@@@@@@@@@@     `````````````+@@:                  
+echo                   d/               :/N@@@@@@@@@@@@@@@@@@@/:     `````````````o@@                   
+echo                   -@`                -:N@@@@@@@@@@@@@@@@y        ```````````y@@/                   
+echo                    oy                  ..@@@@@@@@@@@@@@@o      ```.````````.h@y                    
+echo                     sy                 /N@@@@@@@@@@@h:.        ````````````y@y                     
+echo                      +h`               `N@@@@@@@@@@h:         ````````````o@s                      
+echo                       -h/               o@@@@@@@N+:          ````````````o@:                       
+echo                         +h:             `N@@N@@/.          ````````````:yo`                        
+echo                          `+y/           -h@@+              ``````````/yo`                          
+echo                             :ss:         yNd.            `````````:sy/                             
+echo                               `/ss+-      .-           ```````-+ss/`                               
+echo                                   ./ooo+:-.``://:   ``--/oosso/.                                   
+echo                                        `-:+osyhhysossso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                    
+echo                                         .-/+ooosyyyyso+/:.                                         
+echo                                   `:oydN@hy+:o+: /d@@s:-:oosoo:`                                   
+echo                                :sd@@NN@h- .dN@o/`` ``     ```.sdhs:                                
+echo                             -s@@@@@@@hh@d@@@@N++yN          ``.+/yNNy:                             
+echo                           /yyd@@@@@@@N@N@@@y-.s`             `````:y@@d+`                          
+echo                         /h+h@@@@@@@@@@@@h:.                   `````+Nh.oh+                         
+echo                       .h+`d@@@@@@@N@Ndo                        `````:@@dhoh-                       
+echo                      /h. .:@@@dsso+ss/                          ````+@@@@@N@o                      
+echo                     oy` `ysN@@`     :-                          ````/@@@@@@@@s                     
+echo                    +h    :/@@:  ss      .do                     ```.sN@@@@@@@@s                    
+echo                   -@`     ``-ydy``                               ```y@@@@@@@@@@:                   
+echo                   h/             yh ``........`                  ```:@N@@@@@@@@@                   
+echo                  .N                `:od@@@@@@@o---.              `````+d@@@N@@@@:                  
+echo                  /h                 .:h@@@@@@@@@@@y:.            ``.````yhh+.s@@o                  
+echo                  oy                 s@@@@@@@@@@@@@@@h///-        `````````````N@y                  
+echo                  +h                 o@@@@@@@@@@@@@@@@@@@d+++-    ``.``````````N@s                  
+echo                  .N                 +@@@@@@@@@@@@@@@@@@@@@@@+    ````````````.d@:                  
+echo                   d/                ./s@@@@@@@@@@@@@@@@@@@y/.    ````````````.N@                   
+echo                   -@`                 `:o@@@@@@@@@@@@@@@@@:    ` ```````````-N@/                   
+echo                    oy                   `./@@@@@@@@@@@@@@N`    ```.`````````/@y                    
+echo                     sy                   dN@@@@@@@@@@@/:`     `````````````:Ny                     
+echo                      +h`                 s@@@@@@@@@@hy        ````````````-Ns                      
+echo                       -h/                -@@@@@@@@s+         ````````````+@:                       
+echo                         +h:               h@@N@@s-`        ````````````:yo`                        
+echo                          `+y/            .y@@y             ``````````/yo`                          
+echo                             :ss:          yNd.           `````````:sy/                             
+echo                               `/ss+-       .-          ```````-+ss/`                               
+echo                                   ./ooo+:-.``.:o.-  ``.-:+osso/.                                   
+echo                                        `-:+osyhhyyossso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                      
+echo                                         .-/+oosoyyyyso+/:.                                         
+echo                                   `:oydN@@yo::o/-`sN@d+::ossoo:`                                   
+echo                                :sd@@NN@Ns` -@Ndo:`` ``    ```./dhs:                                
+echo                             -shN@@@@@@yh@dN@@@@o+sN`        ```:++@Ny:                             
+echo                           /yosN@@@@@@@N@N@@Ny:`s-            `````.+@Nd+`                          
+echo                         /h/+N@@@@@@@@@@@@@:-                  `````.sN/+h+                         
+echo                       .h+ /N@@@@@@@N@@dy`                      ``````/Nddyh-                       
+echo                      /h.  -+@@@dsss+os+`                        `````o@@@@N@o                      
+echo                     oy`  -ysN@N.     ./                          ````/@@@@@@@s                     
+echo                    +h    `:/@@+  /d`      od.                   `````o@@@@@@@@s                    
+echo                   -@`      ```shd.``                             ````+@@@@@@@@@:                   
+echo                   h/              :@: ``........                 ```..@N@@@@@@@@                   
+echo                  .N                 `.+o@@@@@@@@:---`            ``````/d@@@@N@@:                  
+echo                  /h                   :/@@@@@@@@@@@@+:`          ````````yhh::@@o                  
+echo                  oy                   N@@@@@@@@@@@@@@@o///.      `````````````o@y                  
+echo                  +h                   N@@@@@@@@@@@@@@@@@@@s+++`  `````````````o@s                  
+echo                  .N                   @@@@@@@@@@@@@@@@@@@@@@@N`  `````````````o@:                  
+echo                   d/                  :/@@@@@@@@@@@@@@@@@@@N+/   `````````````y@                   
+echo                   -@`                   -:d@@@@@@@@@@@@@@@@d    `````````````y@/                   
+echo                    oy                     ..h@@@@@@@@@@@@@@o   ````.````````.@y                    
+echo                     sy                    /N@@@@@@@@@@@d:.    `````````````.dy                     
+echo                      +h`                  .@@@@@@@@@@@h:       ```````````.ds                      
+echo                       -h/                  d@@@@@@@d+-       ````````````/d:                       
+echo                         +h:                +@@@@@d-.        ```````````:yo`                        
+echo                          `+y/             .o@@@            ``````````/yo`                          
+echo                             :ss:           yN@.          `````````:sy/                             
+echo                               `/ss+-        .-         ```````-+ss/`                               
+echo                                   ./ooo+:-````:/+.. ``.-:+osso/.                                   
+echo                                        `-:+osyhhhysosoo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                     
+echo                                         .-/+oososyyyso+/:.                                         
+echo                                   `:oyhNN@hs+:/+:.-h@Ny/:+ssoo:`                                   
+echo                                :sd@@NNN@@+` :N@ho:`````   ```.:yhs:                                
+echo                             -syd@@@@@@@yd@dN@@@@o+oN.       ```.+/hNy:                             
+echo                           /y+/d@@@@@@@@N@N@@@y+ o:           ``````:yNd+`                          
+echo                         /h/.h@@@@@@@@@@@@@@+:                 ``````-dd/h+                         
+echo                       .h+  yN@@@@@@@@N@@h-                     ``````.s@h@d-                       
+echo                      /h.  `-s@@@@sss++oo:                       ``````s@@@@@o                      
+echo                     oy`   :yyN@@-      :.                        `````/@@@@@@s                     
+echo                    +h     `-:@@y  `d+      `dy                  ``````+@@@@@@@s                    
+echo                   -@`       ```+h@+```                          ` ```./@@@@@@@@:                   
+echo                   h/                hh ``.........               ``````dN@@@@@@@                   
+echo                  .N                   `:oh@@@@@@@d----           ```.```:@@@@@@@:                  
+echo                  /h                    .:s@@@@@@@@@@@N::         `````````yhh.s@o                  
+echo                  oy                    /@@@@@@@@@@@@@@@N+///     `````````````.@y                  
+echo                  +h                    /@@@@@@@@@@@@@@@@@@@N+++: `````````````.@s                  
+echo                  .N                    :@@@@@@@@@@@@@@@@@@@@@@@o `````````````-@:                  
+echo                   d/                   `/o@@@@@@@@@@@@@@@@@@@h/. `````````````+@                   
+echo                   -@`                    `:/@@@@@@@@@@@@@@@@@:  `````````````/@/                   
+echo                    oy                       .:@@@@@@@@@@@@@@N`  ```.`````````hy                    
+echo                     sy                      dN@@@@@@@@@@@+: ` ``````````````yy                     
+echo                      +h`                    y@@@@@@@@@@hs      ```````````.hs                      
+echo                       -h/                   +@@@@@@@@o/      ````````````/d:                       
+echo                         +h:                 .@@@N@@/.       ```````````:yo`                        
+echo                          `+y/              `+N@@`          ``````````/yo`                          
+echo                             :ss:            yNN.         `````````:sy/                             
+echo                               `/ss+-        `.-        ```````-+ss/`                               
+echo                                   ./ooo+:-````.:+-:```.-:/osso/.                                   
+echo                                        `-:+osyhhhysosoo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                     
+echo                                         .-/+oossoyyyso+/:.                                         
+echo                                   `:oyd@N@@so/:+/:`+d@Ns/+ssoo:`                                   
+echo                                :od@@@NN@@h/ `+N@yo-````   ```.:shs:                                
+echo                             -sss@@@@@@@@yh@dN@@@@s+oN.      ````:+s@y:                             
+echo                           /y+.s@@@@@@@@@N@N@@@ho ++          ``````.+@@+`                          
+echo                         /h/ /N@@@@@@@@@@@@@@y:`               ```````+@sh+                         
+echo                       .h+  .dN@@@@@@@@N@Nh+                    ```````-hhNd-                       
+echo                      /h.   .-s@@@Nsss++os+`                     ```````h@@@@o                      
+echo                     oy`    /yyN@@+      -:                       ``````o@@@@@s                     
+echo                    +h      `--N@N`  sh       /d/                 ``````+N@@@@@s                    
+echo                   -@`         ``:ydd```                         ```.``.:@@@@@@@:                   
+echo                   h/                 :d/ ``........`              ```.``dN@@@@@@                   
+echo                  .N                    `.+o@@@@@@@@s---.          ```````:@@@NN@:                  
+echo                  /h                      -:d@@@@@@@@@@@h:.        `````````hho:No                  
+echo                  oy                      h@@@@@@@@@@@@@@@h///-   ``````````````dy                  
+echo                  +h                      h@@@@@@@@@@@@@@@@@@@h+o+``````````````ds                  
+echo                  .N                      y@@@@@@@@@@@@@@@@@@@@@@N``````````````@:                  
+echo                   d/                     -/h@@@@@@@@@@@@@@@@@@@+/`````````````:@                   
+echo                   -@`                      .:y@@@@@@@@@@@@@@@@d `````````````.N/                   
+echo                    oy                        `.s@@@@@@@@@@@@@@+``.``.````````sy                    
+echo                     sy                       :N@@@@@@@@@@@h/.` `````````````oy                     
+echo                      +h`                     -@@@@@@@@@@dy-   ````````````.ys                      
+echo                       -h/                    `@@@@@@@@y+`     ```````````/d:                       
+echo                         +h:                   @@@N@@s-`     ```````````:yo`                        
+echo                          `+y/                +d@@:         ``````````/yo`                          
+echo                             :ss:             s@N-`       `````````:sy/                             
+echo                               `/ss+-         `--       ```````-+ss/`                               
+echo                                   ./ooo+:-. ```::+`:```-:/osso/.                                   
+echo                                        `-:+osyhhhhyoooo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                                                                                                                    
+echo                                         .-/+ooosoyyyso+/:.                                         
+echo                                   `:oydd@NNhs+::o:--y@@do+ssoo:`                                   
+echo                                :oh@@@@@N@@y: `oN@so-````  ```.:ohs:                                
+echo                             -ss+y@@@@@@@@sh@dN@@@@y++N-     ````.+sdy:                             
+echo                           /y+`-d@@@@@@@@@N@@N@@ds`:o         ``````./y@+`                          
+echo                         /h/ `y@@@@@@@@@@@@@@@@:.              ```````-ydh+                         
+echo                       .h+   :@N@@@@@@@@N@@dh                   ````````/dN@-                       
+echo                      /h.    .-s@@@@ysoo+ooo:                    ```````.@@@@o                      
+echo                     oy`     /ys@@@h      `:.                    ````````y@@@@s                     
+echo                    +h       `-.d@@:  -d/       yd                ```````oN@@@@s                    
+echo                   -@`          ```yh@/ ``                        ``.````:@@@@@@:                   
+echo                   h/                   yd``..........             ```````d@@@@@@                   
+echo                  .N                      .-os@@@@@@@@/---`        ````````/@@@@@:                  
+echo                  /h                        :/@@@@@@@@@@@@o:`      `````````-hh:@o                  
+echo                  oy                       `@@@@@@@@@@@@@@@@o/+/   `````````````oy                  
+echo                  +h                       `@@@@@@@@@@@@@@@@@@@@ooo:````````````ys                  
+echo                  .N                       `@@@@@@@@@@@@@@@@@@@@@@@+````````````d:                  
+echo                   d/                       /+N@@@@@@@@@@@@@@@@@@y+.```````````:@                   
+echo                   -@`                        ::N@@@@@@@@@@@@@@@@-````````````.d/                   
+echo                    oy                          .-N@@@@@@@@@@@@@@`.``.````````sy                    
+echo                     sy                         hN@@@@@@@@@@N+:``````````````oy                     
+echo                      +h`                       h@@@@@@@@@Ny+  ````````````.ys                      
+echo                       -h/                      y@@@@@@@@+:    ```````````/d:                       
+echo                         +h:                    o@@N@@d-.   ````````````:yo`                        
+echo                          `+y/                 /h@@o        ``````````/yo`                          
+echo                             :ss:              o@@-`      `````````:sy/                             
+echo                               `/ss+-          `--      ```````-+ss/`                               
+echo                                   ./ooo+:-. ```.:/:.:``.:/osso/.                                   
+echo                                        `-:+osyhhhhysooo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooosossyso+/:.                                         
+echo                                   `:oy@@d@Ndyo/-:+:-/hNNy+ssso:`                                   
+echo                                :oyN@@@N@@@Ns- `sNNso.```` ```.:oys:                                
+echo                             -ss//N@@@@@@@@yh@dN@@@@h++@-    `````:shy:                             
+echo                           /y+` +N@@@@@@@@@N@@N@@Ny.-s`       ```````:sd+`                          
+echo                         /h/  .d@@@@@@@@@@@@@@@@/-             ````````+@d+                         
+echo                       .h+    /@N@@@@@@@@@@@@h:                 ````````.yN@-                       
+echo                      /h.     .-o@@@@hooo++oo+`                  ````````/@@@o                      
+echo                     oy`      /ys@@@N.      -:                   ````````.d@@@s                     
+echo                    +h        `-.s@@y   sd       -do              ````````s@@@@s                    
+echo                   -@`           ```+y@d````                      ```.````/@@@@@:                   
+echo                   h/                    .do `..........          ``.``````@@@@@@                   
+echo                  .N                       `./oh@@@@@@@@----       `````````oN@N@:                  
+echo                  /h                         .:o@@@@@@@@@@@N::     ``````````/hoyo                  
+echo                  oy                         /@@@@@@@@@@@@@@@@/++- `````````````oy                  
+echo                  +h                         /@@@@@@@@@@@@@@@@@@@hoo+```````````ss                  
+echo                  .N                         /@@@@@@@@@@@@@@@@@@@@@@d```````````d:                  
+echo                   d/                        ./s@@@@@@@@@@@@@@@@@@N+:``````````:@                   
+echo                   -@`                         `:o@@@@@@@@@@@@@@@@s```````````.d/                   
+echo                    oy                           `-+@@@@@@@@@@@@@@:.``````````sy                    
+echo                     sy                          -N@@@@@@@@@@@y/.````````````oy                     
+echo                      +h`                        -@@@@@@@@@@hy`````````````.ys                      
+echo                       -h/                       -@@@@@@@@o+  ````````````/d:                       
+echo                         +h:                     -@@@@@@:.  ````````````:yo`                        
+echo                          `+y/                  :s@@h       ``````````/yo`                          
+echo                             :ss:               +@@:`     `````````:sy/                             
+echo                               `/ss+-           `--     ```````-+ss/`                               
+echo                                   ./ooo+:-.`````-:+.-.`.:/osso/.                                   
+echo                                        `-:+ooyhhhhysooo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooossossso+/:.                                         
+echo                                   `:oy@@ddN@hy+:://:-sd@@sosso:`                                   
+echo                                :os@@@@@@N@@@s- .yN@oo.`..````.:oss:                                
+echo                             -ss/.y@@@@@@@@@yy@dN@@@@dood:   `````-oyy:                             
+echo                           /y+` `y@@@@@@@@@@@@@N@@@y:`s.      ```````-oh+`                          
+echo                         /h/   :N@@@@@@@@@@@@@@@@s:            ````````-h@+                         
+echo                       .h+     +@N@@@@@@@@@N@@ho                `````````/@@-                       
+echo                      /h.      .:+N@@@Nooo++ooo:                 `````````y@@o                      
+echo                     oy`       :ysd@@@+      `:.                 `````````:N@@s                     
+echo                    +h          -./@@@`  -d+       o@-           `````````.h@@@s                    
+echo                   -@`             ``.yh@+ ``                     ```.`````s@@@@:                   
+echo                   h/                      od-``.........`        `````````.N@@@@                   
+echo                  .N                         `.+o@@@@@@@@s---.    ```````````y@@N:                  
+echo                  /h                           -:h@@@@@@@@@@@y:.  ````````````shyo                  
+echo                  oy                           h@@@@@@@@@@@@@@@y+++`````````````oy                  
+echo                  +h                           y@@@@@@@@@@@@@@@@@@Nooo.`````````ss                  
+echo                  .N                           y@@@@@@@@@@@@@@@@@@@@@@.`````````d:                  
+echo                   d/                          :/d@@@@@@@@@@@@@@@@@@o/`````````:@                   
+echo                   -@`                           .:h@@@@@@@@@@@@@@@@`.````````.d/                   
+echo                    oy                             .-d@@@@@@@@@@@@@o``````````sy                    
+echo                     sy                            yN@@@@@@@@@@@+-```````````oy                     
+echo                      +h`                          h@@@@@@@@@@y:```````````.ys                      
+echo                       -h/                         d@@@@@@@y+.````````````/d:                       
+echo                         +h:                       @@@N@@+-`````````````:yo`                        
+echo                          `+y/                   -+N@N`     ``````````/yo`                          
+echo                             :ss:                /N@/. `  `````````:sy/                             
+echo                               `/ss+-            `--   ````````-+ss/`                               
+echo                                   ./ooo+:-.` ````::/`:..:/osso/.                                   
+echo                                        `-:+ooyhhhhhsooo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooosossso+/:.                                         
+echo                                   `:oy@@dh@Ndds+-://:/h@@hssso:`                                   
+echo                                :osyN@@@@@N@@ds.`-y@doo``..```.:oss:                                
+echo                             -ss/`-N@@@@@@@@@yy@dN@@@@dood:  `````.+ys:                             
+echo                           /y+`  .d@@@@@@@@@@@@@N@@@h/`s- `   ```````.+y+`                          
+echo                         /h/    +@@@@@@@@@@@@@@@@@@:`          ````````.s@+                         
+echo                       .h+      +d@@@@@@@@@@N@@dh.              `````````-d@-                       
+echo                      /h.       .:/d@@@@sooo++ooo                `````````-N@o                      
+echo                     oy`        -sshN@@@       -:                 `````````s@@s                     
+echo                    +h           .-.@@@s   sd`      `dh          ``````````-N@@s                    
+echo                   -@`              `` +h@@` ``                   ````.`````h@@@:                   
+echo                   h/                        dh``..........       ``````````/N@@@                   
+echo                  .N                           .-osN@@@@@@@:---   ```````````.@@@:                  
+echo                  /h                             :/N@@@@@@@@@@N/: ````````````-hdo                  
+echo                  oy                            `N@@@@@@@@@@@@@@N+++-```````````oy                  
+echo                  +h                            `N@@@@@@@@@@@@@@@@@@yoo:````````ss                  
+echo                  .N                             N@@@@@@@@@@@@@@@@@@@@@:````````d:                  
+echo                   d/                            /+N@@@@@@@@@@@@@@@@@h+````````:@                   
+echo                   -@`                             ::N@@@@@@@@@@@@@@@-.```````.d/                   
+echo                    oy                               .:@@@@@@@@@@@@@h`````````sy                    
+echo                     sy                             .N@@@@@@@@@@@o/``````````oy                     
+echo                      +h`                           -@@@@@@@@@Ny+``````````.ys                      
+echo                       -h/                          /@@@@@@@d+:```````````/d:                       
+echo                         +h:                        s@@N@@y-````````````:yo`                        
+echo                          `+y/                    `+@@@.    `````````./yo`                          
+echo                             :ss:                 :N@/. ` `````````:sy/                             
+echo                               `/ss+-             `--  ````````-+ss/`                               
+echo                                   ./ooo+:-.` ````-:/-.:.-/osso/.                                   
+echo                                        `-:+osshhhhhyooo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooosossso+/:.                                         
+echo                                   `:oy@NdhyN@hd+/::+/:od@@ysso:`                                   
+echo                                :osod@@@@N@@@@hs.`:h@ho+``.```.:oss:                                
+echo                             -ss/` o@@@@@@@@@@hs@@N@@@@@ooh- `````./ys:                             
+echo                           /y+`   :N@@@@@@@@@@@@@N@@@do`o: `  ```````.+y+`                          
+echo                         /h/     o@@@@@@@@@@@@@@@@@@/.         `````````+d+                         
+echo                       .h+       +d@@@@@@@@@@@N@Nh+             `````````.s@-                       
+echo                      /h.        `/:h@@@@dooo++o+o:              ``````````h@o                      
+echo                     oy`         -oyy@@@@/      `:-               `````````-@@s                     
+echo                    +h            .-.o@@@`  `ds       /@/        ```````````o@@s                    
+echo                   -@`                  `yh@s ```                ` ```.`````-N@@:                   
+echo                   h/                         :do``.........`      ``````````s@@@                   
+echo                  .N                            `-/sy@@@@@@@d-:-. ````````````oN@:                  
+echo                  /h                              `:+@@@@@@@@@@@h/.````````````o@o                  
+echo                  oy                              :@@@@@@@@@@@@@@@y++/``````````oy                  
+echo                  +h                              :@@@@@@@@@@@@@@@@@@@oo/```````ss                  
+echo                  .N                              :@@@@@@@@@@@@@@@@@@@@@+```````d:                  
+echo                   d/                             ./s@@@@@@@@@@@@@@@@@d+.``````:@                   
+echo                   -@`                              `:s@@@@@@@@@@@@@@@+.``````.d/                   
+echo                    oy                                `-y@@@@@@@@@@@@@````````sy                    
+echo                     sy                               sN@@@@@@@@@@y/`````````oy                     
+echo                      +h`                             d@@@@@@@@@ys`````````.ys                      
+echo                       -h/                           `N@@@@@@N+/``````````/d:                       
+echo                         +h:                         -@@N@@d-.``````````:yo`                        
+echo                          `+y/                      +h@@/   ``````````/yo`                          
+echo                             :ss:                  -N@+.```````````:sy/                             
+echo                               `/ss+-              `--  ```````-+ss/`                               
+echo                                   ./ooo+:-.`  ````::/.-:-/osso/.                                   
+echo                                        `-:+ossyhhhhysoo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+oooossosso+/:.                                         
+echo                                   `:oy@N@hyd@@dy+:::+//h@@hsso:`                                   
+echo                                :ososN@@@@@N@@@ys``/h@yo+`..``.:oss:                                
+echo                             -ss/` `h@@@@@@@@@@do@@N@@@@@ooh-`````./ys:                             
+echo                           /y+`    /N@@@@@@@@@@@@@@@@@Ns`+/ ` ```````.+y+`                          
+echo                         /h/      s@@@@@@@@@@@@@@@@@@y:        `````````/h+                         
+echo                       .h+        /dd@@@@@@@@@@N@@dy            ``````````+d-                       
+echo                      /h.          /:s@@@@@sooo++o+o`            ``````````/@o                      
+echo                     oy`          `/yydN@@d       -:`             ``````````s@s                     
+echo                    +h             `-..N@@s   +d-       hd        ``````````.@@s                    
+echo                   -@`                    /hd@: ``               ```.``.`````o@@:                   
+echo                   h/                           od:``.........     ``````````.N@@                   
+echo                  .N                              .-+sd@@@@@@@+::-````````````.@@:                  
+echo                  /h                                .:y@@@@@@@@@@@/:```````````-@o                  
+echo                  oy                                s@@@@@@@@@@@@@@@+++`````````oy                  
+echo                  +h                                s@@@@@@@@@@@@@@@@@Noo/``````ss                  
+echo                  .N                                s@@@@@@@@@@@@@@@@@@@@o``````d:                  
+echo                   d/                               -/d@@@@@@@@@@@@@@@@N+.`````:@                   
+echo                   -@`                                -:d@@@@@@@@@@@@@@o.`````.d/                   
+echo                    oy                                  .-N@@@@@@@@@@@@.``````sy                    
+echo                     sy                                `N@@@@@@@@@@h/.```````oy                     
+echo                      +h`                              :@@@@@@@@@hy.```````.ys                      
+echo                       -h/                             s@@@@@@@o+`````````/d:                       
+echo                         +h:                           N@@@@@:-`````````:yo`                        
+echo                          `+y/                       /s@@o  ``````````/yo`                          
+echo                             :ss:                   .N@+.``````````:sy/                             
+echo                               `/ss+-               `-- ```````-+ss/`                               
+echo                                   ./ooo+:-``` ````-:::`/:/osso/.                                   
+echo                                        `-:+ossyhhhhhsoo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooooososso+/:.                                         
+echo                                   `:oy@N@hysN@hNoo:::o/odN@soo:`                                   
+echo                                :oso/d@@@@@@N@@@so``+dNso/`-.`.:oss:                                
+echo                             -ss/`  -@@@@@@@@@@@do@@N@@@@@ooy-````./ss:                             
+echo                           /y+`     +@@@@@@@@@@@@@@@N@@@y./+`````````.+y+`                          
+echo                         /h/       y@@@@@@@@@@@@@@@@@@@:`      `````````:h+                         
+echo                       .h+         :ddN@@@@@@@@@@N@Nh:          ``````````/h-                       
+echo                      /h.           ::od@@@@hooo++o+o:           ``````````-@o                      
+echo                     oy`            :syh@@@@/      `:-           ```````````:Ns                     
+echo                    +h               ...s@@@.   hd       :@+      ```````````o@s                    
+echo                   -@`                      yh@d` ``      `       ``.````````.N@:                   
+echo                   h/                             dd``..........  `````.``````o@@                   
+echo                  .N                                -:osN@@@@@@@-::..``````````o@:                  
+echo                  /h                                  ::@@@@@@@@@@@y+.``````````do                  
+echo                  oy                                  @@@@@@@@@@@@@@@o++.```````oy                  
+echo                  +h                                  @@@@@@@@@@@@@@@@@@ss/`````ss                  
+echo                  .N                                  @@@@@@@@@@@@@@@@@@@@s`````d:                  
+echo                   d/                                 /+@@@@@@@@@@@@@@@@N+.````:@                   
+echo                   -@`                                  :+@@@@@@@@@@@@@@s`````.d/                   
+echo                    oy                                   `.s@@@@@@@@@@@@.`````sy                    
+echo                     sy                                  s@@@@@@@@@@@+.``````oy                     
+echo                      +h`                                @@@@@@@@@dy.``````.ys                      
+echo                       -h/                              -@@@@@@@s+.```````/d:                       
+echo                         +h:                            y@@@@@/-````````:yo`                        
+echo                          `+y/                        /o@@s ``````````/yo`                          
+echo                             :ss:                    .N@o.`````````:sy/                             
+echo                               `/ss+-                `--``.````-+ss/`                               
+echo                                   ./ooo+:-``` `````:::.-+/osso/.                                   
+echo                                        `-:+ossshhhhhsoo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooooososso+/:.                                         
+echo                                   `:oy@N@hysd@@d@++::+o+h@Nyoo:`                                   
+echo                                :oys/+N@@@@@d@@@Nso``+d@oo:.-..:oss:                                
+echo                             -ss/`   +@@@@@@@@@@@@+N@N@@@@Noos.```./ss:                             
+echo                           /y+`      o@@@@@@@@@@@@@@@N@@@h./+````````.+y+`                          
+echo                         /h/        s@@@@@@@@@@@@@@@@@@@/.     `````````:h+                         
+echo                       .h+          .hd@@@@@@@@@@@N@@ds         ``````````/h-                       
+echo                      /h.            -//y@@@@@oooo++o+o`         ``````````.do                      
+echo                     oy`             -+yyd@@@@       -:`         ```````````.ds                     
+echo                    +h                `...N@@h   :d+       yd`    ```````````-Ns                    
+echo                   -@`                       -hd@o ```      `     ```.````````s@:                   
+echo                   h/                              :do``.........```.``.``````.N@                   
+echo                  .N                                 `-/sy@@@@@@@+:::``````````:@:                  
+echo                  /h                                   `:+@@@@@@@@@@@/-`````````yo                  
+echo                  oy                                   -@@@@@@@@@@@@@@y++-``````oy                  
+echo                  +h                                   -@@@@@@@@@@@@@@@@@ys/````ss                  
+echo                  .N                                   -@@@@@@@@@@@@@@@@@@@o````d:                  
+echo                   d/                                  ./s@@@@@@@@@@@@@@@N+.```:@                   
+echo                   -@`                                   .:h@@@@@@@@@@@@@s````.d/                   
+echo                    oy                                     .-N@@@@@@@@@N@.````sy                    
+echo                     sy                                   .N@@@@@@@@@@+.`````oy                     
+echo                      +h`                                 +@@@@@@@@ds-`````.ys                      
+echo                       -h/                                @@@@@@@y+.``````/d:                       
+echo                         +h:                             +@@@@@+-```````:yo`                        
+echo                          `+y/                         :oN@h``````````/yo`                          
+echo                             :ss:                     `@@o...``````:sy/                             
+echo                               `/ss+-                 `--``.```-+ss/`                               
+echo                                   ./ooo+:-` `` ````-/::./+osso/.                                   
+echo                                        `-:+osyshhhhhyoo+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooooossoso+/:.                                         
+echo                                   `:oy@@Ndyss@@dNyo::-yosdNhso:`                                   
+echo                                :oyy/:y@@@@@N@@@@@so`.+@doo--..:oss:                                
+echo                             -ss/.    oN@@@@@@@@@@N+@@N@@@@@ooo.``./ss:                             
+echo                           /y+`       o@@@@@@@@@@@@@@@N@@@d-:o..`````.+y+`                          
+echo                         /h/         s@@@@@@@@@@@@@@@@@@@s.    `````````:h+                         
+echo                       .h+           `yhd@@@@@@@@@@N@@@h.       ``````````/h-                       
+echo                      /h.             `+/oN@@@@hooo++o+o:        ``````````.ho                      
+echo                     oy`              .:yyd@@@@/       :-        ````````````ys                     
+echo                    +h                  ..`o@@@:   sd.      -d/  `````````````ds                    
+echo                   -@`                         oh@@- ``      ``   ```.````````:@:                   
+echo                   h/                                od:``.........````````````y@                   
+echo                  .N                                   .:os@@@@@@@d:::`.```````.N:                  
+echo                  /h                                     .:h@@@@@@@@@@+:````````so                  
+echo                  oy                                     o@@@@@@@@@@@@@d++-`````oy                  
+echo                  +h                                     o@@@@@@@@@@@@@@@@ys:```ss                  
+echo                  .N                                     s@@@@@@@@@@@@@@@@@@/```d:                  
+echo                   d/                                    -/@@@@@@@@@@@@@@@N/.``:@                   
+echo                   -@`                                     -/@@@@@@@@@@@@@o```.d/                   
+echo                    oy                                       .y@@@@@@@@@Nd.```sy                    
+echo                     sy                                     y@@@@@@@@@@+.````oy                     
+echo                      +h`                                  `N@@@@@@@@s-````.ys                      
+echo                       -h/                                 s@@@@@@h+.`````/d:                       
+echo                         +h:                              -@@N@@+-``````:yo`                        
+echo                          `+y/                          -o@@h.````````/yo`                          
+echo                             :ss:                      `@@o-.``````:sy/                             
+echo                               `/ss+-                  .--`..``-+ss/`                               
+echo                                   ./ooo+:-` `` ````.:/:-:oosso/.                                   
+echo                                        `-:+osysyhhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooooososo+/:.                                         
+echo                                   `:oy@@@dhssh@@dNoo::/yoh@dso:`                                   
+echo                                :oyy+:/@@@@@@@@@@@ds+`-oNyo+--.:oss:                                
+echo                             -ss/.    `yN@@@@@@@@@@@o@@N@@@@@oo+``./ss:                             
+echo                           /y+`        o@@@@@@@@@@@@@@@N@@@@::+..````.+y+`                          
+echo                         /h/          +@@@@@@@@@@@@@@@@@@@h-   `````````:h+                         
+echo                       .h+             ohhN@@@@@@@@@@N@@h/      ``````````+h-                       
+echo                      /h.               //+h@@@@@oooo+oo++       ``````````.ho                      
+echo                     oy`                :+yhdN@@N       -/`       ```````````ss                     
+echo                    +h                   `...@@@@   .dy       yh `````````````ys                    
+echo                   -@`                          `hh@h  ``     `` `````.```````.@:                   
+echo                   h/                                 `dh``.......--```````````+@                   
+echo                  .N                                     -:sy@@@@@@@/::..```````d:                  
+echo                  /h                                       :/N@@@@@@@@@s/```````so                  
+echo                  oy                                       @@@@@@@@@@@@@@++-````oy                  
+echo                  +h                                       @@@@@@@@@@@@@@@@ys-``ss                  
+echo                  .N                                       N@@@@@@@@@@@@@@@@@-``d:                  
+echo                   d/                                      /o@@@@@@@@@@@@@@@/``:@                   
+echo                   -@`                                      `:h@@@@@@@@@@@@/``.d/                   
+echo                    oy                                        .:@@@@@@@@@Ny```sy                    
+echo                     sy                                      -@@@@@@@@@@/.```oy                     
+echo                      +h`                                    h@@@@@@@ds.```.ys                      
+echo                       -h/                                  :@@@@@@h/.````/d:                       
+echo                         +h:                               `@@N@d+.`````:yo`                        
+echo                          `+y/                           .od@h.```````/yo`                          
+echo                             :ss:                       .@N+-.`````:sy/                             
+echo                               `/ss+-                   .-...``-+ss/`                               
+echo                                   ./ooo+:-` ``  ````-/:::+ssso/.                                   
+echo                                        `-:+osyyyhhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+oooooosooo+/:.                                         
+echo                                   `:oyd@@@yy+yd@d@do+:-ssyddyo:`                                   
+echo                                :oyyo:-oN@@@@@@N@@@hs+`:o@so+:.:oss:                                
+echo                             -ss/``    `yN@@@@@@@@@@@od@N@@@@doo:`./ss:                             
+echo                           /y+`         +@@@@@@@@@@@@@@@@@@@@//+-.```.+y+`                          
+echo                         /h/           :@@@@@@@@@@@@@@@@@@@@:  `````````:h+                         
+echo                       .h+              :hh@@@@@@@@@@@N@@@s     ``````````/h-                       
+echo                      /h.                .+/oN@@@@hooo++o+o-     ``````````.ho                      
+echo                     oy`                 .:yyd@@@@o      `/-      ```````````ss                     
+echo                    +h                     ..`/@@@o   +@:      /d-````````````ys                    
+echo                   -@`                            :hd@+ ```     ````.``.``````.d:                   
+echo                   h/                                   :@o``......--.`````````:@                   
+echo                  .N                                      `:+sd@@@@@@s::-.``````d:                  
+echo                  /h                                        `:s@@@@@@@@@h/``````so                  
+echo                  oy                                        :@@@@@@@@@@@@N++.```oy                  
+echo                  +h                                        :@@@@@@@@@@@@@@@yo``ss                  
+echo                  .N                                        /@@@@@@@@@@@@@@@@d``d:                  
+echo                   d/                                       ./d@@@@@@@@@@@@@h:`:@                   
+echo                   -@`                                        -/@@@@@@@@@@@N-`.d/                   
+echo                    oy                                         `.@@@@@@@@NNo``sy                    
+echo                     sy                                       `@@@@@@@@@d/```oy                     
+echo                      +h`                                     /@@@@@@@ds.``.ys                      
+echo                       -h/                                   .N@@@@@y/.```/d:                       
+echo                         +h:                                `d@Ndd+.````:yo`                        
+echo                          `+y/                            .sd@h.``````/yo`                          
+echo                             :ss:                        .@N+-.````:sy/                             
+echo                               `/ss+-                   `.-...`-+ss/`                               
+echo                                   ./ooo+:-`  `` ````.//://ssso/.                                   
+echo                                        `-:+ooyyyyhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                    
+echo                                         .-/+oooooossoo+/:.                                         
+echo                                   `:oydN@@hyssddNdNys::/hshdyo:`                                   
+echo                                :osyo:--y@@@@@@d@@@@yo/`/ydoo/-:oss:                                
+echo                             -ss/``     .hN@@@@@@@@@@@sd@N@@@@ho+-./ss:                             
+echo                           /y+`          /@@@@@@@@@@@@@@@@@@@N//+-```.+y+`                          
+echo                         /h/            .N@@@@@@@@@@@@@@@@@@N/``````````:h+                         
+echo                       .h+               `hhh@@@@@@@@@@@@@Nh.   ``````````/h-                       
+echo                      /h.                  +/oh@@@@@oooo+oo+/    ``````````.ho                      
+echo                     oy`                   :+yhdN@@@`      -/    ````````````ss                     
+echo                    +h                      `..`h@@@.   dh      `do```````````ys                    
+echo                   -@`                              sh@@. ``     ```.``.``````.d:                   
+echo                   h/                                     y@.`.....---.````````:@                   
+echo                  .N                                        -/sy@@@@@@h::-.`````d:                  
+echo                  /h                                          -:N@@@@@@@@h/`````so                  
+echo                  oy                                          y@@@@@@@@@@@N++.``oy                  
+echo                  +h                                          h@@@@@@@@@@@@@@s/`ss                  
+echo                  .N                                          d@@@@@@@@@@@@@@@+`d:                  
+echo                   d/                                         /o@@@@@@@@@@@@@o.:@                   
+echo                   -@`                                         `:d@@@@@@@@@@d..d/                   
+echo                    oy                                          `-s@@@@@@@N@-`sy                    
+echo                     sy                                         s@@@@@@@@h:``oy                     
+echo                      +h`                                      .N@@@@@@ho``.ys                      
+echo                       -h/                                    `d@@@@@s/```/d:                       
+echo                         +h:                                ``y@Ndd/.```:yo`                        
+echo                          `+y/                             .sh@y.`````/yo`                          
+echo                             :ss:                         -@@/-.```:sy/                             
+echo                               `/ss+-                   ``--.`.-+ss/`                               
+echo                                   ./ooo+:-`  ``  ```.-/://syso/.                                   
+echo                                        `-:+oosyyyhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooosoossoo+/:.                                         
+echo                                   `:oydN@Nhyy+hh@@@dy+::shyhyo:`                                   
+echo                                :osy+/--:d@@@@@@d@@@@so:.+hyoo/:oss:                                
+echo                             -ss/``      -hN@@@@@@@@@@@yh@N@@@@yo/./ss:                             
+echo                           /y+`           -@@@@@@@@@@@@@@@@@@@N/+/-``.+y+`                          
+echo                         /h/              d@@@@@@@@@@@@@@@@@@@o`````````:h+                         
+echo                       .h+                 shh@@@@@@@@@@@@@@d:` ``````````/h-                       
+echo                      /h.                   -++oN@@@@dooo+oo/+`  ``````````.ho                      
+echo                     oy`                    .:yyd@@@@y      `/.  ````````````ss                     
+echo                    +h                        ..`-@@@h   /@/      sh``````````ys                    
+echo                   -@`                               .hd@y````    `...````````.d:                   
+echo                   h/                                      .@s``..------```````:@                   
+echo                  .N                                         `/+yd@@@@@@::-`````d:                  
+echo                  /h                                           `:s@@@@@@@@d/````so                  
+echo                  oy                                           .@@@@@@@@@@@N+/``oy                  
+echo                  +h                                           -@@@@@@@@@@@@@@s.ss                  
+echo                  .N                                           :@@@@@@@@@@@@@@N`d:                  
+echo                   d/                                          ./@@@@@@@@@@@@N::@                   
+echo                   -@`                                           -s@@@@@@@@@@+.d/                   
+echo                    oy                                          ``-+@@@@@@@Ny`sy                    
+echo                     sy                                         `:@@@@@@@@o.`oy                     
+echo                      +h`                                      ``@@@@@@@y/`.ys                      
+echo                       -h/                                    ``y@@@@@o:``/d:                       
+echo                         +h:                                ``.s@@dh:```:yo`                        
+echo                          `+y/                              .sh@s.````/yo`                          
+echo                             :ss:                         `:@d:.```:sy/                             
+echo                               `/ss+-                   ```--.`-+ss/`                               
+echo                                   ./ooo+:-`  ``` ```..///+oyso/.                                   
+echo                                        `-:+oosyhyhhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+ooosooosoo+/:.                                         
+echo                                   `:oyd@@Ndysyo@hNdNhy//+dyhyo:`                                   
+echo                                :oss+/:-./@@@@@@N@@@@Nso--ohsoo/oss:                                
+echo                             -ss/` `      -hN@@@@@@@@@@@yh@N@@@Ns/:/ss:                             
+echo                           /y+`            .N@@@@@@@@@@@@@@@@@@N/o/.`.+y+`                          
+echo                         /h/               s@@@@@@@@@@@@@@@@@@@s.```````:h+                         
+echo                       .h+                  :hhh@@@@@@@@@@@@@@o```````````/h-                       
+echo                      /h.                     ++oh@@@@@oooo+o/+- ``````````.ho                      
+echo                     oy`                      :/yhdN@@@.      :: ````````````ss                     
+echo                    +h                         `...o@@@:   hh     `/d.````````ys                    
+echo                   -@`                                 /h@@:``.   ``..````````.d:                   
+echo                   h/                                        o@-`..------``````:@                   
+echo                  .N                                           -/sy@@@@@N::-````d:                  
+echo                  /h                                             -/N@@@@@@@h:```so                  
+echo                  oy                                             y@@@@@@@@@@@+-`oy                  
+echo                  +h                                             h@@@@@@@@@@@@h/ss                  
+echo                  .N                                             d@@@@@@@@@@@@@+d:                  
+echo                   d/                                            /s@@@@@@@@@@@y:@                   
+echo                   -@`                                          ` -/@@@@@@@@@@.d/                   
+echo                    oy                                          ```.:N@@@@@N@:sy                    
+echo                     sy                                        ```.N@@@@@@@/`oy                     
+echo                      +h`                                      ```h@@@@@No-.ys                      
+echo                       -h/                                    ```s@@@@N/-`/d:                       
+echo                         +d:                                ```.s@@dy-``:yo`                        
+echo                          `+y/                              `.sdNo````/yo`                          
+echo                             :ss:                         ``/Ny-.``:sy/                             
+echo                               `/ss+-                   ```.--`-+ss/`                               
+echo                                   ./ooo+:-`   ``  ``..://+oyso/.                                   
+echo                                        `-:+oooyhyyhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooosoosso+/:.                                         
+echo                                   `:osh@NN@yshohdd@@dho//yhyyo:`                                   
+echo                                :oso+:+-..+N@@@@@N@@@@@oo.:syosooss:                                
+echo                             -ss/`         -y@@@@@@@@@@@@yh@N@@@@o/+ss:                             
+echo                           /y+`             `@@@@@@@@@@@@@N@@@@@@/o:`.+y+`                          
+echo                         /h/                /@@@@@@@@@@@@@@@@@@@y.``````:h+                         
+echo                       .h+                   `hhhN@@@@@@@@@@@@Ny.`````````/h-                       
+echo                      /h.                      -++oN@@@@hooo+oo//``````````.ho                      
+echo                     oy`                       .:shd@@@@y      -/````````````ss                     
+echo                    +h                           ....@@@@   :d/  ```-d-```````ys                    
+echo                   -@`                                  `yd@d``.. ```-.```````.d:                   
+echo                   h/                                         .@s`..------`````:@                   
+echo                  .N                                            `/oyN@@@@N::.```d:                  
+echo                  /h                                              ./h@@@@@@@y-``so                  
+echo                  oy                                              -@@@@@@@@@@h+`oy                  
+echo                  +h                                              :@@@@@@@@@@@@sss                  
+echo                  .N                                              +@@@@@@@@@@@@dd:                  
+echo                   d/                                             -+@@@@@@@@@@N+@                   
+echo                   -@`                                          ```.:@@@@@@@@@+d/                   
+echo                    oy                                          ```..-@@@@@@Nysy                    
+echo                     sy                                        `````d@@@@@@h-oy                     
+echo                      +h`                                      ````s@@@@@d+.ys                      
+echo                       -h/`                                   ````o@@@@d:./d:                       
+echo                         +d:                                 ```.s@dhs.`:yo`                        
+echo                          `+y/                              ``-yd@/```/yo`                          
+echo                             :ss:                         ```+@s-.`:sy/                             
+echo                               `/ss+-                   ````.-.-+ss/`                               
+echo                                   ./ooo+:-`   ``` ``..-//+ssso/.                                   
+echo                                        `-:+oooshhyhhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooosoooso+/:.                                         
+echo                                   `:oshd@NNhssh+@d@d@hho+odyso:`                                   
+echo                                :oso/:+:..-oN@@@@@@N@@@doo.+ssososs:                                
+echo                             -ss/`  `       -y@@@@@@@@@@@@hh@@@@Nh/oss:                             
+echo                           /y+`               h@@@@@@@@@@@@N@@@@@d:o..+y+`                          
+echo                         /h/                 `N@@@@@@@@@@@@@@@@@@y.`````:h+                         
+echo                       .h+                     +hhd@@@@@@@@@@@@@h-.```````/h-                       
+echo                      /h.                        ++oh@@@@Nooooos/+`````````.ho                      
+echo                     oy`                         :/yd@N@@@.     ./.``````````ss                     
+echo                    +h                             .../@@@+   hy ```..h:``````ys                    
+echo                   -@`                                    :h@@/`.-````-.``````.d:                   
+echo                   h/                                           s@-..-----.````:@                   
+echo                  .N                                              :+yd@@@@N::.``d:                  
+echo                  /h                                              ``/s@@@@@@@o.`so                  
+echo                  oy                                              ``@@@@@@@@@@s:oy                  
+echo                  +h                                              ``@@@@@@@@@@@dhs                  
+echo                  .N                                              `.N@@@@@@@@@@@@:                  
+echo                   d/                                             `./@@@@@@@@@@y@                   
+echo                   -@`                                           ````:h@@@@@@@dd/                   
+echo                    oy                                           ```..-d@@@@@dyy                    
+echo                     sy                                        ``````h@@@@@N+sy                     
+echo                      +h`                                       ````o@@@@@s:ys                      
+echo                       -h/`                                   `````o@@@Ns-/d:                       
+echo                         +h/                                 ````.s@hh+`:yo`                        
+echo                          `+y/                              ```-ydd:``/yo`                          
+echo                             :ss:                         ```.sd+.`:sy/                             
+echo                               `/ss+-                   `````.--+ss/`                               
+echo                                   ./ooo+:-`    `` ``..-/++ssso/.                                   
+echo                                        `-:+oooshhyyhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+oooosooooo+/:.                                         
+echo                                   `:oshdd@Ndsshsy@d@dddhoohyso:`                                   
+echo                                :oso:::o-..:s@@@@@@@N@@@yo+-osoysss:                                
+echo                             -ss/`           :y@@@@@@@@@@@@hh@@@@@soys:                             
+echo                           /y+`                o@@@@@@@@@@@@N@@@@@y/+.+y+`                          
+echo                         /h/                   h@@@@@@@@@@@@@@@@@@y`````:h+                         
+echo                       .h+                      .hhhN@@@@@@@@@@@@d:.``````/h-                       
+echo                      /h.                         -+ooN@@@@hoooos/+.```````.ho                      
+echo                     oy`                          .:oh@@@@@y     `+:`````````ss                     
+echo                    +h                              `...d@@N   +d.````.y:`````ys                    
+echo                   -@`                                    ``sd@h`.-..``-.`````.d:                   
+echo                   h/                                            -@o.------.```:@                   
+echo                  .N                                               -+yh@@@@@:-``d:                  
+echo                  /h                                              ```-+@@@@@@N/`so                  
+echo                  oy                                              ```s@@@@@@@@@+oy                  
+echo                  +h                                              ```s@@@@@@@@@Nds                  
+echo                  .N                                              ```h@@@@@@@@@@@:                  
+echo                   d/                                            ````/h@@@@@@@@@@                   
+echo                   -@.                                           `````-y@@@@@@N@/                   
+echo                    oy                                         ```.``.`-d@@@@@@y                    
+echo                     sy                                         ``````y@@@@@ysy                     
+echo                      +h`                                      ``````o@@@@@+ys                      
+echo                       -h/                                     `````o@@@@//d:                       
+echo                         +h+`                                `````.yNhy-:yo`                        
+echo                          `+h+                              ````:y@y.`/yo`                          
+echo                             :ss:                         ````-yh/.:sy/                             
+echo                               `/ss+-                   ``````-:+ss/`                               
+echo                                   ./ooo+:-`    ``` `..-:++ssss/.                                   
+echo                                        `-:+ooosyhhyyyso+/-`                                        
+ping localhost -n 1 >nul
+cls
+echo                                        .-/+ooooosoooo+/:.                                         
+echo                                   `:oshdhd@@hssdod@dd@h@yoyhso:`                                   
+echo                                :oso:.:+/..`:y@@@@@@@@@@Nso//osyhss:                                
+echo                             -ss/`            :sd@@@@@@@@@@@hh@@@Ndshs:                             
+echo                           /y+`                 :@@@@@@@@@@@@N@@@@@oo-+y+`                          
+echo                         /h/                    +@@@@@@@@@@@@@@@@@@s````:h+                         
+echo                       .h+                        shhd@@@@@@@@@@@@@:.`````/h-                       
+echo                      /h.                           +ooh@@@@@ossos++-``````.ho                      
+echo                     oy`                            ::yd@N@@@.   ``/:````````ss                     
+echo                    +h                                ...:@@@+  .d+`````y:````ys                    
+echo                   -@`                                    ```-d@@:.--``...````.d:                   
+echo                   h/                                              hh.-----..``:@                   
+echo                  .N                                               ``+sh@@@@d:.`d:                  
+echo                  /h                                               ```./N@@@@@h.so                  
+echo                  oy                                               ```:@@@@@@@@ysy                  
+echo                  +h                                             ` ```/@@@@@@@@@@s                  
+echo                  .N                                             ` ```o@@@@@@@@@@:                  
+echo                   d/                                            `````:s@@@@@@@@@                   
+echo                   -@.                                           ```.``-s@@@@@@@/                   
+echo                    oy                                          ``.``.``-d@@@NNy                    
+echo                     sy                                         ```````y@@@@@hy                     
+echo                      +h`                                      ```````o@@@@shs                      
+echo                       -h/                                     ``````s@@Ns+d:                       
+echo                         +h/.                               ```````-h@yo:yo`                        
+echo                          `+ho`                             `````+yd+./yo`                          
+echo                             :ss:                         `````/hs-:sy/                             
+echo                               `/ss+-                   ``````.:+ss/`                               
+echo                                   ./ooo+:-`     `` `..--/+osss/.                                   
+echo                                        `-:+ooosyhhyyyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+ooooosoooo+/:.                                         
+echo                                   `:oyhdhy@@dsshhsd@ddd@@sshso:`                                   
+echo                                :oso:-./o-.`./yN@@@@@@@@@@oo:ooydys:                                
+echo                             -ss/`             -sd@@@@@@@@@@@yhN@@@hhs:                             
+echo                           /y+`                  .@@@@@@@@@@@@N@@@@N/++y+`                          
+echo                         /h/                     .@@@@@@@@@@@@@@@@@@+```:h+                         
+echo                       .h+                         :hhh@@@@@@@@@@@@@:.````/h-                       
+echo                      /h.                            -+ss@@@@@sssos++-`````.ho                      
+echo                     oy`                             .:oy@@@@@o  ```//```````ss                     
+echo                    +h                                 `...h@@@   yy`````y-```ys                    
+echo                   -@`                                      ```yd@y.--```-.```.d:                   
+echo                   h/                                             ``o@-.--....`:@                   
+echo                  .N                                               ```/oyN@@@s:`d:                  
+echo                  /h                                               ```.`/@@@@@@/so                  
+echo                  oy                                               ````.N@@@@@@@yy                  
+echo                  +h                                             ` ```..@@@@@@@@Ns                  
+echo                  .N                                             ``````:@@@@@@@@@:                  
+echo                   d/                                            ``````-o@@@@@@@@                   
+echo                   -@.                                            ``````.s@@@@@@/                   
+echo                    oy                                          ```.````.-@@@@@y                    
+echo                     sy                                         ````````h@@@@@y                     
+echo                      +h`                                      ````````y@@@d@s                      
+echo                       -h/                                    ```````.h@@dod:                       
+echo                         +h:-`                              ```````.:@hy/yo`                        
+echo                          `+ys`                             `````.ohh:/yo`                          
+echo                             :ss:                         `````.+y+:sy/                             
+echo                               `/ss+-                   ``````.:+ss/`                               
+echo                                   ./ooo+:-`     ````..--/oosss/.                                   
+echo                                        `-:+ooosshhyyyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+ooooosoooo+/:.                                         
+echo                                   `:oyhhhyhddhssdsy@dd@dNhsyyo:`                                   
+echo                                :oso:-`:+o.``./hN@@@@N@@@@ho+/oydhs:                                
+echo                             -ss/`              -sd@@@@@@@@@@@yd@@@Nhy:                             
+echo                           /y+`                    @@@@@@@@@@@NN@@@@yooy+`                          
+echo                         /h/                       d@@@@@@@@@@@@@@@@N-``:h+                         
+echo                       .h+                          `hhh@@@@@@@@@@@@@:.```/h-                       
+echo                      /h.                              +sod@@@@dsssyo/-````.ho                      
+echo                     oy`                               ::yd@N@@d ````:/``````ss                     
+echo                    +h                                   ...:@@@:``+d.```.y.``ys                    
+echo                   -@`                                       ```/d@@--:```-.``.d:                   
+echo                   h/                                             ```:@:......`:@                   
+echo                  .N                                              ``.``:ohN@@@:.d:                  
+echo                  /h                                              ``.````/d@@@@hso                  
+echo                  oy                                              ```````@@@@@@@hy                  
+echo                  +h                                              ``.````N@@@@@@@s                  
+echo                  .N                                              ``````-@@@@@@@@:                  
+echo                   d/                                             ``````.o@@@@@@@                   
+echo                   -@`.                                         ` ```````.y@@@@@/                   
+echo                    oy                                          ```.`````.:N@@@y                    
+echo                     sy                                        `````````.d@@@@y                     
+echo                      +h`                                      ````````.d@@NNs                      
+echo                       -h/                                    ````````-@@@hd:                       
+echo                         +h:`:                              ````````.+dysyo`                        
+echo                          `+yo-                             ``````-yho/yo`                          
+echo                             :ss:                         ``````-ss+sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+:-`      ````.--:+osso/.                                   
+echo                                        `-:+ooossyhhsyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                 
+echo                                         .-/+oooooosooo+/:.                                         
+echo                                   `:oyhhyysdddysydsh@dd@N@ysyo:`                                   
+echo                                :oso::.`/o/```-+hN@@@@NN@@@so++sdds:                                
+echo                             -ss/`               -od@@@@@@@@@@Ny@@N@dy:                             
+echo                           /y+`                     h@@@@@@@@@@NN@@@Noyy+`                          
+echo                         /h/                        o@@@@@@@@@@@@@@@@d.`:h+                         
+echo                       .h+                            ohhd@@@@@@@@@@@@-```/h-                       
+echo                      /h.                               -osy@@@@@sysyo/.```.ho                      
+echo                     oy`                                .:+h@@@@@-````:/`````ss                     
+echo                    +h                                    `...h@@y``:d-```-o``ys                    
+echo                   -@`                                        ```.h@N/-:```-``.d:                   
+echo                   h/                                             ```..@+......:@                   
+echo                  .N                                              ``````-ohN@@h-d:                  
+echo                  /h                                              ````````:d@@@Nho                  
+echo                  oy                                              ````````@@@@@@Ny                  
+echo                  +h                                              ````````@@@@@@@s                  
+echo                  .N                                              ```````.@@@@@@@:                  
+echo                   d/                                             ```````.o@@@@@@                   
+echo                   -@`.`                                        ``````````.h@@@@/                   
+echo                    oy                                          ````.`````.o@@@y                    
+echo                     sy`                                       ``````````-N@@@y                     
+echo                      +d.                                       ````````-@@@@s                      
+echo                       -h/                                    `````````/NN@d:                       
+echo                         +h: -.                              ````````-yhhho`                        
+echo                          `+y+:`                            ```````/yyoyo`                          
+echo                             :ss:                         ``````./sssy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+:-`      ````.--:+osso/.                                   
+echo                                        `-:+ooossyhhysso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooooosooo+/:.                                         
+echo                                   `:oyddyssyd@hssdho@@d@@@hsso:`                                   
+echo                                :syo::- `+o:```-+dN@@@@@N@@@o+oshds:                                
+echo                             -sy/.                -odN@@@@@@@@@@yN@@@s:                             
+echo                           /y+`                      o@@@@@@@@@@N@@@@hyh+`                          
+echo                         /h/                         -@@@@@@@@@@@@@@@@o`:h+                         
+echo                       .h+                             -hhhN@@@@@@@@@@d.``/h-                       
+echo                      /h.                                `+ssN@@@@yysy+/.``.ho                      
+echo                     oy`                                  ::y@@N@@+````::````ss                     
+echo                    +h                                      ...+@@N...d:```/:`ys                    
+echo                   -@`                                          ```sd@o--``.-`.d:                   
+echo                   h/                                             ``````d+.....:@                   
+echo                  .N                                              ```.```-oh@@@/@:                  
+echo                  /h                                              `````````:@@@@@o                  
+echo                  oy                                              `````````@@@@@@y                  
+echo                  +h                                              `````````@@@@@@s                  
+echo                  .N                                              ````````.@@@@@@:                  
+echo                   d/                                             ````````.s@@@@@                   
+echo                   -@` -                                         ``````````-@@@@/                   
+echo                    oy                                         ` ```.``````-h@@y                    
+echo                     sh.                                       ```````````/@@@y                     
+echo                      +@-                                       `````````+@@@s                      
+echo                       -d/                                    `````````.s@N@:                       
+echo                         +h:  /`                             `````````/yh@o`                        
+echo                          `+y/:-                            ```````.oyyyo`                          
+echo                             :ss:                         ```````-+yyy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+:-`       ```.--:/osso/.                                   
+echo                                        `-:+ooossyyhysso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooooooooo+/:.                                         
+echo                                   `:oy@dyosod@@ysydyyN@d@@@sso:`                                   
+echo                                :syo/:-` .so.```:+d@@@@@@@@@h+oyhds:                                
+echo                             -sy+.                 -+dN@@@@@@@@@hh@@Ns:                             
+echo                           /y+`                       /@@@@@@@@@@N@@@@hh+`                          
+echo                         /h/                           @@@@@@@@@@@@@@@N-:h+                         
+echo                       .h+                              `yhd@@@@@@@@@@@s.`/h-                       
+echo                      /h.                                  :ssd@@@@yyyy//``.ho                      
+echo                     oy`                                   ./od@N@@y````/-```ss                     
+echo                    +h                                       `-.-N@@:`.h:```+.ys                    
+echo                   -@`                                           `../d@s--``...d:                   
+echo                   h/                                              ```.``h+....:@                   
+echo                  .N                                               ```````-oh@@y@:                  
+echo                  /h                                               `````````/@@@@o                  
+echo                  oy                                              ``````````N@@@@y                  
+echo                  +h                                              ``````````N@@@@s                  
+echo                  .N                                               ````````-@@@@@:                  
+echo                   d/                                            ``````````-h@@@@                   
+echo                   -@` `.                                        ```````````/@@@/                   
+echo                    oh`                                         ``.``.`````./N@y                    
+echo                     s@-                                        ```````````h@@y                     
+echo                      +N+                                      ``````````.h@@s                      
+echo                       -d+                                     `````````:@@@:                       
+echo                         +h:  `/`                            `````````.odNo`                        
+echo                          `+y/./`                           ````````:shho`                          
+echo                             :ss:                         ```````./ydy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+:-`       ````.-:/osso/.                                   
+echo                                        `-:+ooossyyhysso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                 
+echo                                         .-/+ooooooosoo+/:.                                         
+echo                                   `:oy@@yo+oy@@dsshdo@NdNNNyso:`                                   
+echo                                :ohs/:-.  :s+````/+@@@@@N@@@Nooyhds:                                
+echo                             -sy+-`                 -+dN@@@@@@@@NyN@Ny:                             
+echo                           /y+`                        -@@@@@@@@@@N@@@@d+`                          
+echo                         /h/                            s@@@@@@@@@@@@@@y:h+                         
+echo                       .h+                                +ddd@@@@@@@@@N/`/h-                       
+echo                      /h.                                   .+hy@@@@hyyy::`.ho                      
+echo                     oy`                                    `//h@N@@d````+.``ss                     
+echo                    +h                                         ---y@@+`.y:``-/ys                    
+echo                   -@`                                            `.-:d@y--``-.d:                   
+echo                   h/                                             `````.``d/...:@                   
+echo                  .N                                               ```.````-sd@N@:                  
+echo                  /h                                               `````````.o@@@o                  
+echo                  oy                                               `````````.@@@@y                  
+echo                  +d`                                            ` `````````-@@@@s                  
+echo                  .@`                                            ` `````````/@@@@:                  
+echo                   d/                                            ```````````-N@@@                   
+echo                   -@`  ..                                       ```````````.y@@/                   
+echo                    o@.                                         ``.`````````-h@y                    
+echo                     sN+                                        ```````````:N@y                     
+echo                      +@h`                                     ```````````/N@s                      
+echo                       -@h                                    ``````````.s@@:                       
+echo                         +h:   `+                           ```````````/hNo`                        
+echo                          `+y/ ::                           ````````.oddo`                          
+echo                             :ss:                         ````````-ody/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+:-`       ``.`.-:/osso/.                                   
+echo                                        `-:+oooosyyyhsso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+oooooooooo+/:.                                         
+echo                                   `:oy@Nhs++od@@ysydysNN@N@hso:`                                   
+echo                                :ohy+:--`  +s+````/o@@@@@NN@@hoyhhs:                                
+echo                             -ss+-`                  -+hN@@@@@@@@dh@Ny:                             
+echo                           /y+`                         .N@@@@@@@@N@@@Nd+`                          
+echo                         /h/                             /@@@@@@@@@@@@@@+h+                         
+echo                       .h+                                 :ddd@@@@@@@@@d./h-                       
+echo                      /h.                                     +hyN@@@dhyy:-.ho                      
+echo                     oy`                                      ::y@N@@@.``.+``ss                     
+echo                    +h                                          .--o@@s`.y-``/ys                    
+echo                   -@`                                            ``.--h@y--`..d:                   
+echo                   h/                                             ``.``..``d-../@                   
+echo                  .N                                              ``.```````:yN@N:                  
+echo                  /h                                               ``````````.h@@o                  
+echo                  oy                                               ``````````/@@@y                  
+echo                  +@-                                            ` ``````````+@@@s                  
+echo                  .@:                                            ````````````y@@@:                  
+echo                   do                                            ````````````+@@@                   
+echo                   -N.   -`                                       ```````````-N@/                   
+echo                    o@/                                         ```.````````.+@y                    
+echo                     s@y.                                       ````````````y@y                     
+echo                      +@N:                                     ```````````.h@s                      
+echo                       -@N.                                   ```````````:@@:                       
+echo                         +d/    .+                          ```````````-sNo`                        
+echo                          `+h/ `/-                          `````````/h@o`                          
+echo                             :ss:                         ````````.ody/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+:-`        `.`.-:/osso/.                                   
+echo                                        `-:+oooosyyyhyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooooooooo+/:.                                         
+echo                                   `:oy@Nds+:os@@dsshdodN@NN@so:`                                   
+echo                                :oyd+:--.   ss/```./oN@@@@@N@Nsydys:                                
+echo                             -ss/-.                   -ohN@@@@@@@@hNNy:                             
+echo                           /h+`                          `d@@@@@@@@@@@@@+`                          
+echo                         /h/                              .N@@@@@@@@@@@@hh+                         
+echo                       .h+                                  `hddN@@@@@@@@++h-                       
+echo                      /h.                                      :yy@@@@dhyo:.ho                      
+echo                     oy`                                       ./odNN@@.``::`ss                     
+echo                    +h                                           .::/@@s`.y.`-hs                    
+echo                   -@`                                            ```---y@s-.`-d:                   
+echo                   h/                                             ``````....d../@                   
+echo                  .N                                              ```````````+h@@:                  
+echo                  /h                                              ``.`````````:@@o                  
+echo                  oy                                              ````````````y@@y                  
+echo                  +N+                                             ````````````h@@s                  
+echo                  .N+                                             ```````````.N@@:                  
+echo                   ds                                             ```````````.d@@                   
+echo                   -@/    :`                                    ` ````````````y@/                   
+echo                    o@y`                                        ```.`````````-@y                    
+echo                     s@N/                                      `````````````/Ny                     
+echo                      +@@h`                                    ````````````+Ns                      
+echo                       -@@o                                   ```````````.y@:                       
+echo                         +@+`    -+                         ```````````.o@o`                        
+echo                          `+h/  ./.                         `````````-y@o`                          
+echo                             :ss:                         `````````/hh/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+/-`        `...-:/osso/.                                   
+echo                                        `-:+oooosyyyyyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                  
+echo                                         .-/+oooooooooo+/:.                                         
+echo                                   `:oy@N@s+::oh@@hss@hyNN@N@yo:`                                   
+echo                                :osds/--.`   yo:```.+oN@@@NN@@hydys:                                
+echo                             -sy/-.`                   -ohN@@@@@@N@dNy:                             
+echo                           /hs.                           `h@@@@@@@NN@@@+`                          
+echo                         /h/                               `@@@@@@@@@@@@Nh+                         
+echo                       .h+                                   `yddN@@@@@@@d+h-                       
+echo                      /h.                                       .sh@@@@dhh/:ho                      
+echo                     oy`                                        `/+dNN@d.``/.ss                     
+echo                    +h                                           ``:::N@s`-o``ds                    
+echo                   -@`                                            ````---y@o-.-d:                   
+echo                   h/                                             ```.```...:s./@                   
+echo                  .N                                              ```````````.sN@:                  
+echo                  /h                                              ````````````.h@o                  
+echo                  oh                                              ````````````.@@y                  
+echo                  +ds.                                            ````````````-@@s                  
+echo                  .No.                                            ````````````+@@:                  
+echo                   ds-                                            ````````````/@@                   
+echo                   -No     :`                                    ``.``````````/@/                   
+echo                    o@N-                                         ```.````````.yy                    
+echo                     s@@y-                                     `````````````.dy                     
+echo                      +@@@/                                     ```````````-@s                      
+echo                       -dN@`                                  ```````````.o@:                       
+echo                         +ds.     -+                         ```````````/do`                        
+echo                          `+h/   :/`                        `````````.odo`                          
+echo                             :ss:                         `````````:yy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./ooo+/-`        `...-:/osso/.                                   
+echo                                        `-:+oooooyyyyyso+/-`                                        
+ping localhost -n 1 >nul
+cls                                                                                                   
+echo                                         .-/+oooooooooo+/:.                                         
+echo                                   `:oy@@Nho/-+s@@dyshdy@NNN@yo:`                                   
+echo                                :osyy+--..   `ho-```-+sN@@@NN@@hdhs:                                
+echo                             -sd+.-.                    -ohN@@@@@@@@Ny:                             
+echo                           /hy:                            `h@@@@@@@@@@@+`                          
+echo                         /h/                                 h@@@@@@@@@@@@+                         
+echo                       .h+                                    `od@N@@@@@@Nyh-                       
+echo                      /h.                                        `odd@@@dhs:ho                      
+echo                     oy`                                          //hNN@h``-:ss                     
+echo                    +h                                           ```:::@@o`/:`hs                    
+echo                   -@`                                           `````..--y@/-.d:                   
+echo                   h/                                              ```````...s-/@                   
+echo                  .N                                              ````````````:d@:                  
+echo                  /h                                              ```.`````````/@o                  
+echo                  oy.                                             `````````````s@y                  
+echo                  +hs+                                            `````````````y@s                  
+echo                  .N:o`                                           `````````````@@:                  
+echo                   dy+                                           `````````````.@@                   
+echo                   -@s:     :.                                   `````````````.N/                   
+echo                    o@@s`                                        ```.`````````sy                    
+echo                     s@@N/`                                    ``````````````yy                     
+echo                      +@@@@.                                    ```````````.hs                      
+echo                       -d@Ns                                   ```````````/d:                       
+echo                         +hy:      .o                        ```````````:ho`                        
+echo                          `+y+    /:`                       `````````.+ho`                          
+echo                             :ss:                         `````````:sy/                             
+echo                               `/ss+-                   ```````-+ss/`                               
+echo                                   ./oooo+-.         `..-:/osso/.                                   
+echo                                        `-:+oooooyyysyso+/-`                                        
+ping localhost -n 1 >nul
+cls
+
+chcp 65001
+cls
+echo ================================================================================================
+echo                                     Windows Activation Service 
+echo                                        by Zhuk for !Fest ©
+echo ================================================================================================
 echo.
 
 REM ===============================================
@@ -86,7 +1677,8 @@ if /i "%reactivate%"=="y" (
     echo [INFO] Proceeding with reactivation...
     goto :reactivate
 ) else (
-    echo [INFO] Skipping reactivation.
+    echo [INFO] Canceled reactivation. bay bay moms Hacker
+	timeout /t 5
     exit /b
 )
 
@@ -152,7 +1744,7 @@ if %errorlevel%==0 (
 )
 echo.
 
-echo ================================================
-echo         Activation Completed
-echo ================================================
+echo ================================================================================================
+echo                                     Activation Completed
+echo ================================================================================================
 pause
