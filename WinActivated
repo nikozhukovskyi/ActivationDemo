@@ -22,23 +22,13 @@ REM ===============================================
 REM [STATUS] Checking Windows activation status
 REM ===============================================
 echo [STATUS] Checking if Windows is already activated...
-set "currentStatus="
-set "licenseType="
-for /f "tokens=2 delims==" %%i in ('wmic path SoftwareLicensingProduct where "Name like 'Windows%%'" get LicenseStatus /value ^| find "LicenseStatus"') do (
-    set "currentStatus=%%i"
-)
-for /f "tokens=2 delims==" %%i in ('wmic path SoftwareLicensingService get OA3xOriginalProductKey /value ^| find "OA3xOriginalProductKey"') do (
-    set "licenseType=OEM"
-)
 
-if "%currentStatus%"=="1" (
-    if not "%licenseType%"=="" (
-        echo [STATUS] Windows is already activated via OEM key.
-    ) else (
-        echo [STATUS] Windows is already activated (Retail or KMS).
-    )
+REM Use slmgr.vbs to check activation status
+cscript //nologo %SystemRoot%\System32\slmgr.vbs /dli | findstr /i "Licensed" >nul
+if %errorlevel%==0 (
+    echo [STATUS] Windows is already activated.
     echo [INFO] No activation required.
-    timeout /t 3 /nobreak >nul
+    REM Skip reactivation if already activated
     exit /b
 ) else (
     echo [STATUS] Windows is not activated. Proceeding with activation...
@@ -46,26 +36,19 @@ if "%currentStatus%"=="1" (
 echo.
 
 REM ===============================================
-REM Detecting Windows product name and edition
+REM Detecting Windows version and edition
 REM ===============================================
 echo [STATUS] Detecting Windows version...
-for /f "tokens=2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName 2^>nul ^| find /i "ProductName"') do set "productName=%%B"
-for /f "tokens=2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID 2^>nul ^| find "EditionID"') do set "edition=%%B"
+
+for /f "tokens=2,*" %%A in ('wmic os get caption 2^>nul') do set "productName=%%B"
 
 if "%productName%"=="" (
     echo [ERROR] Could not detect Windows product name.
     pause
     exit /b
 )
-if "%edition%"=="" (
-    echo [ERROR] Could not detect Windows edition.
-    pause
-    exit /b
-)
 
 echo [STATUS] Product: %productName%
-echo [STATUS] Edition: %edition%
-echo.
 
 REM ===============================================
 REM Checking Windows version (10 or 11)
@@ -78,6 +61,16 @@ if %errorlevel%==0 (
     set version=10
     echo [STATUS] Detected: Windows 10.
 )
+
+REM ===============================================
+REM Fixing Detection for Windows 10 Enterprise Evaluation
+REM ===============================================
+if "%productName%"=="Windows 10 Enterprise Evaluation" (
+    set edition=EnterpriseEval
+    set version=10
+    echo [STATUS] Detected: Windows 10 Enterprise Evaluation.
+)
+
 echo.
 
 REM ===============================================
@@ -88,24 +81,20 @@ set key=
 if "%version%"=="10" (
     if /i "%edition%"=="Professional" (
         set key=W269N-WFGWX-YVC9B-4J6C9-T83GX
-        echo [STATUS] Selected key for Windows 10 Professional.
     ) else if /i "%edition%"=="Core" (
         set key=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
-        echo [STATUS] Selected key for Windows 10 Home.
     ) else if /i "%edition%"=="Enterprise" (
         set key=NPPR9-FWDCX-D2C8J-H872K-2YT43
-        echo [STATUS] Selected key for Windows 10 Enterprise.
+    ) else if /i "%edition%"=="EnterpriseEval" (
+        set key=VLMVJ-YP9XJ-YWY9X-2C2F6-WX88H
     )
 ) else if "%version%"=="11" (
     if /i "%edition%"=="Professional" (
         set key=W269N-WFGWX-YVC9B-4J6C9-T83GX
-        echo [STATUS] Selected key for Windows 11 Professional.
     ) else if /i "%edition%"=="Core" (
         set key=NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-        echo [STATUS] Selected key for Windows 11 Home.
     ) else if /i "%edition%"=="Enterprise" (
         set key=NPPR9-FWDCX-D2C8J-H872K-2YT43
-        echo [STATUS] Selected key for Windows 11 Enterprise.
     )
 )
 
@@ -114,6 +103,7 @@ if "%key%"=="" (
     pause
     exit /b
 )
+echo [STATUS] Selected key: %key%
 echo.
 
 REM ===============================================
@@ -123,22 +113,41 @@ set kmsServer=kms8.msguides.com
 
 echo [STATUS] Installing KMS key...
 slmgr /ipk %key% >nul 2>&1
+if %errorlevel% neq 0 (
+    echo [ERROR] Failed to install KMS key.
+    pause
+    exit /b
+)
 echo [STATUS] KMS key installed.
 echo.
 
 echo [STATUS] Configuring KMS server: %kmsServer%...
 slmgr /skms %kmsServer% >nul 2>&1
+if %errorlevel% neq 0 (
+    echo [ERROR] Failed to configure KMS server.
+    pause
+    exit /b
+)
 echo [STATUS] KMS server set.
 echo.
 
 echo [STATUS] Activating Windows...
 slmgr /ato >nul 2>&1
+if %errorlevel% neq 0 (
+    echo [ERROR] Activation failed. Check network or KMS server.
+    pause
+    exit /b
+)
 echo [STATUS] Activation command executed.
 echo.
 
 echo [STATUS] Verifying activation status...
-slmgr /xpr >nul 2>&1
-echo [STATUS] Activation status checked.
+cscript //nologo %SystemRoot%\System32\slmgr.vbs /dli | findstr /i "Licensed" >nul
+if %errorlevel%==0 (
+    echo [SUCCESS] Windows activation was successful!
+) else (
+    echo [ERROR] Activation failed. Check network or KMS server.
+)
 echo.
 
 echo ================================================
